@@ -1,0 +1,333 @@
+%----------------------------------------------------------------------------------------
+%   Доорх хэсгийг өөрчлөх шаардлагагүй
+%----------------------------------------------------------------------------------------
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+\documentclass[12pt,A4]{report}
+
+\usepackage{fontspec,xltxtra,xunicode}
+\setmainfont[Ligatures=TeX]{Times New Roman}
+\setsansfont{Arial}
+
+% \usepackage[utf8x]{inputenc}
+% \usepackage[mongolian]{babel}
+%\usepackage{natbib}
+\usepackage{geometry}
+%\usepackage{fancyheadings} fancyheadings is obsolete: replaced by fancyhdr. JL
+\usepackage{fancyhdr}
+\usepackage{float}
+\usepackage{afterpage}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb,amsbsy}
+\usepackage{dcolumn,array}
+\usepackage{tocloft}
+\usepackage{dics}
+\usepackage{nomencl}
+\usepackage{upgreek}
+\newcommand{\argmin}{\arg\!\min}
+\usepackage{mathtools}
+\usepackage[hidelinks]{hyperref}
+
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+\usepackage{listings}
+\DeclarePairedDelimiter\abs{\lvert}{\rvert}%
+\makeatletter
+\usepackage{caption}
+\captionsetup[table]{belowskip=0.5pt}
+\usepackage{subfiles}
+
+\usepackage{listings}
+\renewcommand{\lstlistingname}{Код}
+\renewcommand{\lstlistlistingname}{\lstlistingname ын жагсаалт}
+
+\usepackage{color}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.99,0.99,0.99}
+ 
+\lstdefinestyle{mystyle}{
+    basicstyle=\ttfamily\small,
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    %basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=false,                 
+    numbers=left,                    
+    numbersep=10pt,                  
+    showspaces=false,                
+    showstringspaces=true,
+    showtabs=false,                  
+    tabsize=2
+}
+ 
+\lstset{style=mystyle, label=DescriptiveLabel} 
+
+\let\oldabs\abs
+\def\abs{\@ifstar{\oldabs}{\oldabs*}}
+\makenomenclature
+\begin{document}
+
+
+%----------------------------------------------------------------------------------------
+%   Өөрийн мэдээллээ оруулах хэсэг
+%----------------------------------------------------------------------------------------
+
+% Дипломийн ажлын сэдэв
+\title{DDPG бататгасан сургалтын үйлдлийн шуугианыг турших, харьцуулах }
+% Дипломын ажлын англи нэр
+\titleEng{Effect of action space noise for DDPG RL algorithm}
+% Өөрийн овог нэрийг бүтнээр нь бичнэ
+\author{Батбаярын Бямбаням}
+% Өөрийн овгийн эхний үсэг нэрээ бичнэ
+\authorShort{Б.Бямбаням}
+% Удирдагчийн зэрэг цол овгийн эхний үсэг нэр
+\supervisor{Г.Гантулга}
+% Хамтарсан удирдагчийн зэрэг цол овгийн эхний үсэг нэр
+\cosupervisor{}
+
+% СиСи дугаар 
+\sisiId{17B1NUM1479}
+% Их сургуулийн нэр
+\university{МОНГОЛ УЛСЫН ИХ СУРГУУЛЬ}
+% Бүрэлдэхүүн сургуулийн нэр
+\faculty{ХЭРЭГЛЭЭНИЙ ШИНЖЛЭХ УХААН, ИНЖЕНЕРЧЛЭЛИЙН СУРГУУЛЬ}
+% Тэнхимийн нэр
+\department{МЭДЭЭЛЭЛ, КОМПЬЮТЕРИЙН УХААНЫ ТЭНХИМ}
+% Зэргийн нэр
+\degreeName{Бакалаврын судалгааны ажил}
+% Суралцаж буй хөтөлбөрийн нэр
+\programeName{Мэдээллийн технологи (D061304)}
+% Хэвлэгдсэн газар
+\cityName{Улаанбаатар}
+% Хэвлэгдсэн огноо
+\gradyear{2021 оны 02 сар}
+
+
+%----------------------------------------------------------------------------------------
+%   Доорх хэсгийг өөрчлөх шаардлагагүй
+%----------------------------------------------------------------------------------------
+\include{main-pre}
+
+% Удиртгалыг оруулж ирэх ба abstract.tex файлд удиртгалаа бичнэ
+\include{abstract}
+
+%----------------------------------------------------------------------------------------
+%   Дипломын үндсэн хэсэг эндээс эхэлнэ
+%----------------------------------------------------------------------------------------
+%\addcontentsline{toc}{part}{БҮЛГҮҮД}
+% Шинэ бүлэг
+
+\chapter{Судалгаа}
+
+\section{DDPG алгоритм}
+
+Алгоритмыг тайлбарлахаас өмнө Reinforcement Learning буюу бататгасан сургалтын талаар бага зэрэг тайлбарлая. Цаашдаа RL гэж товчилон бичинэ.
+
+\subsection{Бататгасан сургалтын алгоритм}
+
+RL нь агент болон орчин гэсэн хоёр хэсгээс тогтдог. Орчин гэдэг нь агент ажиллаж байгаа объектыг, агент гэдэг нь RL алгоритмыг илэрхийлнэ.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{./images/rl}
+\caption{Бататгасан сургалтын бүтэц}
+\end{figure}
+
+Орчин нь агент руу төлөвийг илгээх байдлаар эхлэдэг бөгөөд агент нь мэдлэг дээрээ тулгуурлан тухайн нөхцөл байдалд хариу үйлдэл үзүүлэнэ. Үүний дараа орчин агент руу дараагийн төлөв болон reward-ыг илгээнэ. Агент нь орчиноос хүлээн авсан reward-аар мэдлэгээ шинэчлэнэ. Энэ давталт нь орчиноос дуусгах төлөв илгээх хүртэл үргэлжилнэ. Ихэнх RL алгоритмууд дээрх байдлаар ажилладаг.
+
+\subsection{Бататгасан сургалттай холбоотай нэр томъёо}
+
+\begin{itemize}
+	\item Action (A): Агентийн хийх боломжтой бүр алхамууд
+	\item State (S): Орчиноос буцаж ирэх тухайн нөхцөл байдал
+	\item Reward (R): өмнөх үйлдлийн үр дүнд гарсан ололт
+	\item Policy (\(\pi\)): Агент одоогийн төлөв байдалд үндэслэн дараагийн үйлдлийг тодорхойлоход ашигладаг стратеги. 
+	\item Value (V): урт хугацааны ололт
+	\item Q-value эсвэл action-value(Q): Value-тай төстэй. Гэхдээ одоогийн үйлдэлийг нэмэлт параметрээр авдаг.
+\end{itemize}
+
+\subsubsection{Model-free болон Model-based}
+
+Model нь орчны динамик загварчлалыг илэрхийлдэг. Загвар нь шилжилтийн магадлалыг T(s1 | (s0, a)) одоогийн төлөв s0 ба үйлдэл а хоёроос  сурч, дараагийн s1 төлөвт шилждэг.
+
+Model-free гэдэг нь мэдлэгээ шинэчлэхийн тулд туршилт ба алдаанд тулгуурладаг. Төлөвүүд болон үйлдлүүдийг хадгалах шаардлагагүй. 
+
+\subsubsection{On-policy болон off-policy}
+
+On-policy агент нь value-г одоогийн policy-г ашигласан одоогийн үйлдэлд тулгуурлан сурдаг. Харин off-policy агент өөр нэг policy-г ашигласан үйлдэл a*-д тулгуурлан сурдаг.
+
+\subsection{DDPG алгоритм}
+
+Deep Deterministic Policy Gradient (DDPG) бол үргэлжилсэн, тасралтгүй үйлдлүүдийг сурахад зориулагдсан model-free off-policy алгоритм юм. Q-функц ба policy-ыг зэрэг сурдаг алгоритм юм. Q-функцыг сурахын тулд off-policy өгөгдөл болон Bellman тэгшитгэлийг ашигладаг. Мөн policy-г сурахын тулд Q-функцыг ашигладаг. 
+
+DDPG алгоритм дараах 4 неороны сүлжээг ашигладаг:
+\begin{itemize}
+	\item ${\theta}^Q$:Q-network
+	\item ${\theta}^{\mu}$:Deterministic policy function
+	\item ${\theta}^{Q^{'}}$:target Q network
+	\item ${\theta}^{{\mu}^{'}}$:target policy network
+\end{itemize} 
+ 
+ Q-network болон policy network хоёр нь Actor-critic аргатай маш төстөй. 
+ 
+\begin{itemize}
+	\item Actor (Deterministic policy function) - төлөвөөс хамааран үйлдлийг санал болгоно. Төлөвийг оролтоор авч үйлдлийг гаргана.
+	\item Critic (Q-network) - төлөвөөс хамаарсан үйлдэл нь сайн эсвэл муу болохын урьдчилан таамагладаг. Төлөв болон үйлдлийг оролтоор авч Q-value-г гаргадаг.
+\end{itemize}
+
+Target network нь суралцсан сүлжээнүүдийг хянаж байдаг эх сүлжээнүүдийнхээ цагийн хоцрогдолтой хуулбарууд юм. Эдгээр сүлжээг ашиглан тогтвортой сурах байдлыг сайжруулдаг.	
+
+Доорх зурагт DPDG алгоритмын pseudo-code-ыг харууллаа. Үүнийг 4 хэсэгт задлан тайлбарлаж болно.
+
+\begin{itemize}
+	\item Туршлагаа хадгалах (Experience replay)
+	\item Actor болон critic сүлжээг шинэчлэх
+	\item Target сүлжээг шинэчлэх
+	\item Судалгаа, шинжилгээ хийх (Exploration)
+\end{itemize} 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{./images/pseudo-code}
+\caption{DDPG алгоритмын pseudo-code}
+\end{figure}
+
+\subsubsection{Replay buffer}
+
+DDPG алгоритм нь replay buffer-ыг туршлагыг цуглуулахад ашигладаг. Цуглуулсан туршлагаа неороны сүлжээний параметрүүдийг шинэчлэхэд ашигладаг. Value болон policy сүлжээг шинэчлэхдээ replay buffer дахь туршлагуудаас санамсаргүй байдлаар цуглуулан ашигладаг.
+
+Яагаад replay buffer-ыг ашиглаж байгаа вэ гэхээр алгоритд хамааралгүй байдлаар тархсан өгөгдөл хэрэгтэй. Ийм өгөгдлүүдийг replay buffer дахь туршлагуудаас санамсаргүй байдлаар сонгон авах байдлаар цуглуулж болно.
+
+\subsubsection{Actor (Policy) болон Critic (Value) сүлжээг шинэчлэх}
+
+Value сүлжээг шинэчлэх үйл явц нь Q-learning-тэй төстэй байдлаар хийгддэг. Шинэчлэгдсэн Q value-г Bellman-ны тэгшитгэлээс гарган авна:
+
+\begin{center}
+$y_i=r_i+\gamma{Q^{'}}(s_i+1,\mu^{'}(s_i+1|\theta^{\mu^{'}})|\theta^{Q{'}})$
+\end{center}
+
+DDPG-д дараагийн төлөв Q утгуудыг target value network, target policy network ашиглан тооцдог. Дараа нь шинэчлэгдсэн Q утга ба анхны Q утга хоорондын дундаж квадрат алдааг хамгийн бага хэмжээнд хүртэл бууруулна:
+
+\begin{center}
+$Loss = \dfrac{1}{N}\sum_{i}(y_i-Q(s_i,a_i|\theta^Q))^2$
+\end{center}
+
+Анхны Q value нь target network-оос биш value network-оос бодогдон гарна. 
+
+Policy функцын хувьд гол зорилго нь буцан ирэх үр дүн хамгийн дээд хэмжээнд байх юм:
+
+\begin{center}
+$J(\theta) = E[Q(s, a)|_s=s_t,a_t=\mu(s_t)]$
+\end{center}
+
+Policy алдагдлыг тооцоолохын тулд зорилгын функцын деривативыг авна. Actor(policy) функц нь ялгагдах боломжтой тул гинжин дүрмийг хэрэгжүүлэх ёстой:
+
+\begin{center}
+$\bigtriangledown_\theta\mu J(\theta) \approx \bigtriangledown_a Q(s, a)\bigtriangledown_\theta\mu \mu(s|\theta^\mu)$
+\end{center}
+
+Policy-гоо off-policy байдлаар шинэчлэж байгаа учир санамсаргүй байдлаар авсан туршлагуудынхаа градиентүүдийн нийлбэрийн дундаж утгыг авна:
+
+\begin{center}
+$\bigtriangledown_\theta\mu J(\theta) \approx \dfrac{1}{N}\sum_{i}[\bigtriangledown_a Q(s, a|\theta^Q)|_s=s_i,a=\mu(s_i)\bigtriangledown_\theta\mu \mu(s|\theta^\mu)|_s=s_i]$
+\end{center}
+
+\subsubsection{Target сүлжээг шинэчлэх}
+ 
+Target сүлжээний параметрүүдийг хуулбарлаад, тэдгээрээр дамжуулан сурсан сүлжээнүүдээ хянана:
+
+\begin{center}
+$\theta^{Q{'}} \longleftarrow \tau\theta^Q + (1-\tau)\theta^{Q{'}}$ 
+
+$\theta^{\mu{'}} \longleftarrow \tau\theta^\mu + (1-\tau)\theta^{\mu{'}}$ 
+
+$\tau $ бол ихэвчлэн 1-тэй ойролцоо байхаар сонгосон параметр юм (жишээлбэл: 0.999).
+\end{center}
+
+\subsubsection{Судалгаа шинжилгээ}
+
+Reinforcement learning буюу бататгасан сургалтад тасралттай үйлдлийн хувьд суралцах үйл явц нь санамсаргүй үйлдлийг сонгох замаар явагддаг. Харин үргэлжилсэн үйлдлийн хувьд суралцах үйл явц нь үйлдэлд шуугианыг нэмэх замаар явагддаг. DDPG алгоритмын баримт бичиг зохиогчид үйлдлийн үр дүнд дуу чимээ нэмэхийн тулд N:Ornstein-Uhlenbeck Process-г ашигласан байна:
+
+\begin{center}
+$\mu^{'}(s_t) = \mu(s_t|\theta_t^\mu) + N$
+\end{center}
+
+Ornstein-Uhlenbeck процесс нь өмнөх дуу чимээтэй уялдаатай холбоотой шуугианыг бий болгодог.
+ 
+\section{Ашигласан технологи}
+
+Gym, pytorch etc
+
+\subsection{Gym}
+
+Gym бол reinforcement learning буюу бататгасан сургалтын алгоритмуудыг хөгжүүлэх болон харьцуулахад зориулагдсан хэрэгсэл юм. Үүнийг ашиглан агентдаа алхах, тоглоом тоглох зэрэг бүх зүйлийг зааж болно. 
+
+\subsubsection{Яагаад үүнийг ашигладаг вэ?}
+
+Бататгасан сургалт (RL) нь шийдвэр гаргахтай холбоотой машин сургалтын дэд талбар юм. Энэ нь агент нарийн төвөгтэй, тодорхойгүй орчинд хэрхэн зорилгодоо хүрч болохыг судалдаг. RL нь доорх 2 шалтгааны улмаас ихээр ашиглагдаж байна:
+
+\begin{itemize}
+	\item RL нь дараалсан шийдвэр гаргахтай холбоотой бүхий л асуудлыг багтаасан байдаг. Жишээ нь роботын хөдөлгүүрийг удирдаж, түүнийг үсрэх чадвартай болгох, үнэ, бараа материалын менежмент гэх мэт бизнесийн шийдвэр гаргах, видео тоглоом, ширээний тоглоом тоглох гэх мэт
+	\item RL алгоритмууд олон хүнд хэцүү орчинд сайн үр дүнд хүрч эхэлсэн
+\end{itemize} 
+
+Гэсэн хэдий ч RL судалгааны ажлыг RL-ын open-source орчин хангалттай олон янз байдаггүй бөгөөд тэдгээрийг тохируулах, ашиглахад хэцүү байдал болон орчны стандартчилал дутмаг гэсэн хоёр хүчин зүйл удаашруулж байна. Gym нь эдгээр 2 асуудлыг шийдэхийг зоридог.
+
+\chapter{Хэрэгжүүлэлт}
+
+\chapter{Үр дүнгийн боловсруулалт}
+
+\section{Туршилтын үр дүн}
+
+\section{Үр дүнгийн харьцуулалт}
+
+
+%----------------------------------------------------------------------------------------
+%   Дүгнэлт эндээс эхэлнэ
+%----------------------------------------------------------------------------------------
+\conclusion{Дүгнэлт}
+Дүгнэлтийг энд бич
+
+%----------------------------------------------------------------------------------------
+%   Дипломын номзүй, хавсралтын хэсэг эндээс эхэлнэ
+%----------------------------------------------------------------------------------------
+
+\singlespace
+\addcontentsline{toc}{part}{НОМ ЗҮЙ}
+\begin{thebibliography}{}
+	% Ашигласан материалыг эндээс оруулна
+	\bibitem{image1}
+	Deep Deterministic Policy Gradients Explained, TowardsDataScience, \url{https://towardsdatascience.com/deep-deterministic-policy-gradients-explained-2d94655a9b7b}
+	\bibitem{pharagraph1}
+	Deep Deterministic Policy Gradient (DDPG),  Keras, \url{https://keras.io/examples/rl/ddpg_pendulum/}
+	\bibitem{format1}
+	Deep Deterministic Policy Gradient, Spinning Up, \url{https://spinningup.openai.com/en/latest/algorithms/ddpg.html}
+	\bibitem{list}
+	Continuous Control With Deep Reinforcement Learning, Lillicrap et al 2015, \url{https://arxiv.org/pdf/1509.02971.pdf}
+    \bibitem{table}
+    Tables, Share LaTex, https://www.sharelatex.com/learn/Tables
+\end{thebibliography}
+
+
+%----------------------------------------------------------------------------------------
+%   Хавсралтууд эндээс эхэлнэ
+%----------------------------------------------------------------------------------------
+\appendix
+\addcontentsline{toc}{part}{ХАВСРАЛТ}
+
+% Хавсралтын нэр. Хавсралт гэдэг үг агуулахгүй
+\chapter{А}
+Хавсралтын агуулга
+
+% Хавсралтын нэр. Хавсралт гэдэг үг агуулахгүй
+\chapter{Кодын хэрэгжүүлэлт}
+
+\end{document}
