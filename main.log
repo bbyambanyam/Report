@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.7) (preloaded format=xelatex 2020.10.6)  3 MAR 2021 17:22
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.7) (preloaded format=xelatex 2020.10.6)  15 MAR 2021 20:37
 entering extended mode
 **./main.tex
 (main.tex
@@ -1168,14 +1168,26 @@ Overfull \hbox (8.48439pt too wide) in paragraph at lines 271--272
 ргалтын алгоритмуудыг хөгжүүлэх болон
  []
 
-[7] [8]
+[7]
+Overfull \hbox (12.20996pt too wide) in paragraph at lines 282--283
+[]\TU/TimesNewRoman(0)/m/n/12 Гэсэн хэдий ч RL судалгааны ажлыг RL-ын open-sour
+ce орчин хангалттай олон янз байдаггүй
+ []
+
+
+Overfull \hbox (4.74872pt too wide) in paragraph at lines 293--294
+\TU/TimesNewRoman(0)/m/n/12 Учир нь маш нарийн төвөгтэй неороны сүлжээг хялбара
+ар бий болгодог. Мөн кодоо шалгахдаа
+ []
+
+[8]
 \uppercase {Бүлэг}2.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 291.
+(hyperref)                removing `\uppercase' on input line 295.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--292
+Underfull \hbox (badness 10000) in paragraph at lines 295--296
 
  []
 
@@ -1185,10 +1197,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 291--292
 \uppercase {Бүлэг}3.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 293.
+(hyperref)                removing `\uppercase' on input line 297.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--294
+Underfull \hbox (badness 10000) in paragraph at lines 297--298
 
  []
 
@@ -1197,16 +1209,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 293--294
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 303.
+(hyperref)                removing `\uppercase' on input line 307.
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 315--316
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
 []\TU/TimesNewRoman(0)/m/n/12 Deep Deterministic Policy Gradients Explained, To
 wardsDataScience, []$[][][][][] [] [] []
  []
 
 
-Overfull \hbox (45.00438pt too wide) in paragraph at lines 315--316
+Overfull \hbox (45.00438pt too wide) in paragraph at lines 319--320
 [][][][][][][][][][][][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][]$[] 
@@ -1218,7 +1230,7 @@ Overfull \hbox (45.00438pt too wide) in paragraph at lines 315--316
 AppendixA.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 334.
+(hyperref)                removing `\uppercase' on input line 338.
 
 [13
 
@@ -1226,10 +1238,10 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 AppendixB.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 338.
+(hyperref)                removing `\uppercase' on input line 342.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 338--339
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
 
  []
 

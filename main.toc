@@ -15,6 +15,7 @@
 \contentsline {section}{\numberline {1.2}Ашигласан технологи}{7}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}Gym}{7}{subsection.1.2.1}%
 \contentsline {subsubsection}{Яагаад үүнийг ашигладаг вэ?}{7}{section*.10}%
+\contentsline {subsection}{\numberline {1.2.2}Pytorch}{8}{subsection.1.2.2}%
 \contentsline {chapter}{\numberline {2.}\uppercase {Хэрэгжүүлэлт}}{9}{chapter.2}%
 \contentsline {chapter}{\numberline {3.}\uppercase {Үр дүнгийн боловсруулалт}}{10}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Туршилтын үр дүн}{10}{section.3.1}%
