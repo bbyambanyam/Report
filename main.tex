@@ -194,11 +194,49 @@ Target network нь суралцсан сүлжээнүүдийг хянаж б�
 	\item Судалгаа, шинжилгээ хийх (Exploration)
 \end{itemize} 
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.9\textwidth]{./images/pseudo-code}
-\caption{DDPG алгоритмын pseudo-code}
-\end{figure}
+------------------------------------------------------------------------------------------------------------------
+DDPG алгоритмын pseudo code
+
+------------------------------------------------------------------------------------------------------------------
+$\theta^Q$ болон $\theta^{\mu}$ жинтэйгээр critic сүлжээ $Q(s_i,a_i|\theta^Q)$ болон actor сүлжээ $\mu(s|\theta^mu)$ -г үүсгэнэ
+
+$\theta^{Q{'}} \longleftarrow \theta^Q$, $\theta^{\mu{'}} \longleftarrow \theta^\mu$ жинтэйгээр target сүлжээ $Q^{'}$ болон $\mu^{'}$-г үүсгэнэ
+
+Replay buffer-aa үүсгэнэ
+
+for episode = 1, M do
+
+\quad Анхны төлөв болох s1-г авна
+
+\quad for t = 1, T do
+
+\quad\quad Тухайн policy болон шуугиан дээрээ үндэслэн үйлдэлээ сонгоно $a_t = \mu(s_t|\theta^\mu)+N_t$
+
+\quad\quad Үйлдэл $a_t$-гээ гүйцэтгээд reward $r_t$ болон шинэ төлөв $s_t+1$-ээ авна
+
+\quad\quad Replay buffer-даа төлөв, үйлдэл, reward, шинэ төлөвөө ($s_t, a_t, r_t, s_t+1$) хадгалж авна
+
+\quad\quad Replay buffer-аасаа N тооны санамсаргүй утгыг авна
+
+\quad\quad $y_i=r_i+\gamma{Q^{'}}(s_i+1,\mu^{'}(s_i+1|\theta^{\mu^{'}})|\theta^{Q{'}})$ утгыг онооно
+
+\quad\quad Loss-ыш багасгаж critic сүлжээг шинэчлэнэ: $L = \dfrac{1}{N}\sum_{i}(y_i-Q(s_i,a_i|\theta^Q))^2$
+
+\quad\quad Actor policy-г шинэчлэнэ: 
+\begin{center}
+$\bigtriangledown_\theta\mu J(\theta) \approx \dfrac{1}{N}\sum_{i}[\bigtriangledown_a Q(s, a|\theta^Q)|_s=s_i,a=\mu(s_i)\bigtriangledown_\theta\mu \mu(s|\theta^\mu)|_s=s_i]$
+\end{center}
+
+\quad\quad Target сүлжээнүүдийг шинэчлэнэ:
+\begin{center}
+$\theta^{Q{'}} \longleftarrow \tau\theta^Q + (1-\tau)\theta^{Q{'}}$ 
+
+$\theta^{\mu{'}} \longleftarrow \tau\theta^\mu + (1-\tau)\theta^{\mu{'}}$ 
+\end{center}
+
+\quad\quad end for
+
+\quad end for
 
 \subsubsection{Replay buffer}
 
@@ -260,7 +298,7 @@ Reinforcement learning буюу бататгасан сургалтад таср
 $\mu^{'}(s_t) = \mu(s_t|\theta_t^\mu) + N$
 \end{center}
 
-Ornstein-Uhlenbeck процесс нь өмнөх дуу чимээтэй уялдаатай холбоотой шуугианыг бий болгодог.
+Ornstein-Uhlenbeck процесс нь өмнөх шуугиантай уялдаатай холбоотой шуугианыг бий болгодог.
  
 \section{Ашигласан технологи}
 
@@ -283,7 +321,7 @@ Gym бол reinforcement learning буюу бататгасан сургалты
 
 \subsection{Pytorch}
 
-Pytorch бол Torch сан дээр тулгуурласан open-source машин сургалтын сан юм. Python хэлэнд ихээр ашиглагддаг ч мөн С++ програмчлалын хэлд ашиглагддаг. Энэ GPU ашигладаг. PyTorch нь өндөр түвшний хоёр онцлог шинж чанарыг агуулдаг:
+Pytorch бол Torch сан дээр тулгуурласан open-source машин сургалтын сан юм. Python хэлэнд ихээр ашиглагддаг ч мөн С++ програмчлалын хэлд ашиглагддаг. Энэ нь GPU ашигладаг. PyTorch нь өндөр түвшний хоёр онцлог шинж чанарыг агуулдаг:
 
 \begin{itemize}
 	\item GPU-г ашиглан тенсорын тооцоолол хийх (NumPy гэх мэт) 
@@ -294,9 +332,139 @@ Pytorch бол Torch сан дээр тулгуурласан open-source маш
  
 \chapter{Хэрэгжүүлэлт}
 
+Хэрэгжүүлэлтийг python програмчлалын хэлийг ашиглан гүйцэтгэсэн. Орчинг бэлдэхдээ gym openai хэрэгсэлийг ашигласан. Pytorch санг тооцоолол хийх, неороны сүлжээ үүсгэх зэрэгт ашигласан. Дээр дурдсан DDPG алгоритмын pseudo кодын дагуу кодыг бичсэн. Чухал кодын хэсгийг доор орууллаа. Бүтэн кодыг хавсралт хэсэгт оруулсан.
+
+BipedalWalker-v3 орчин дээр алгоритыг ажиллуулан турших болно.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{./images/bipedalwalker}
+\caption{BiPedalWalker-V3 орчин}
+\end{figure}
+
+Орчинг үүсгэж төлөвийн хэмжээс, үйлдлийн хэмжээс, хийж болох үйлдлийн тоог авна. 
+
+\begin{lstlisting}[language=Python, caption=Орчин үүсгэх, frame=single]
+env = gym.make('BipedalWalker-v3')
+
+state_dimension = env.observation_space.shape[0]
+action_dimension = env.action_space.shape[0]
+action_max = env.action_space.high[0]
+\end{lstlisting}
+
+Actor, target actor, critic болон target critic сүлжээг optimizer (сургагч)-ын хамт үүсгэх. Үүсгэхдээ төлөвийн хэмжээс, үйлдлийн хэмжээс, хийж болох үйлдлийн тоо зэргийг ашиглана.
+
+\begin{lstlisting}[language=Python, caption=Actor critic сүлжээ үүсгэх, frame=single]
+actor = models.Actor(state_dimension, action_dimension, action_max)
+target_actor = models.Actor(state_dimension, action_dimension, action_max)
+actor_optimizer = torch.optim.Adam(actor.parameters(), lr=0.001)
+
+critic = models.Critic(state_dimension, action_dimension)
+target_critic = models.Critic(state_dimension, action_dimension)
+critic_optimizer = torch.optim.Adam(critic.parameters(), lr=0.001)
+
+for target_param, param in zip(target_actor.parameters(), actor.parameters()):
+	target_param.data.copy_(param.data)
+
+for target_param, param in zip(target_critic.parameters(), critic.parameters()):
+    target_param.data.copy_(param.data)
+\end{lstlisting}
+
+Replay buffer үүсгэх
+
+\begin{lstlisting}[language=Python, caption=Replay buffer үүсгэх, frame=single]
+ram = memory.ReplayBuffer(1000000))
+\end{lstlisting}
+
+Action noise-г үүсгэхдээ Ornstein-Uhlenbeck Process-г ашигласан
+
+\begin{lstlisting}[language=Python, caption=Шуугиан үүсгэх, frame=single]
+noise = utilities.OrnsteinUhlenbeckActionNoise(action_dimension)
+\end{lstlisting}
+
+Үйлдэл дээр шуугианыг нэмэх
+
+\begin{lstlisting}[language=Python, caption=Үйлдэл дээр шуугиан нэмэх, frame=single]
+action_with_noise = action_without_noise.data.numpy() + (noise.sample() * action_max)
+\end{lstlisting}
+
+Үйлдлийг хийж шинэ төлөв, reward-г авах
+
+\begin{lstlisting}[language=Python, caption=Үйлдэл хийх, frame=single]
+new_observation, reward, done, info = env.step(action_with_noise)
+\end{lstlisting}
+
+Critic сүлжээг сургаад, шинэчлэх
+
+\begin{lstlisting}[language=Python, caption=Critic сүлжээг сургах шинэчлэх, frame=single]
+# Critic network-g surgah
+
+predicted_action = target_actor.forward(next_states).detach()
+next_val = torch.squeeze(target_critic.forward(next_states, predicted_action).detach())
+y_expected = rewards + 0.99*next_val
+y_predicted = torch.squeeze(critic.forward(states, actions))
+
+# Critic network-g shinechleh, critic loss-g tootsooloh
+            
+critic_loss = F.smooth_l1_loss(y_predicted, y_expected)
+critic_optimizer.zero_grad()
+critic_loss.backward()
+critic_optimizer.step()
+\end{lstlisting}	
+
+Actor сүлжээг сургах
+
+\begin{lstlisting}[language=Python, caption=Actor сүлжээг сургах, frame=single]
+predicted_action = actor.forward(states)
+actor_loss = -1*torch.sum(critic.forward(states, predicted_action))
+actor_optimizer.zero_grad()
+щactor_loss.backward()
+щactor_optimizer.step()
+\end{lstlisting}
+
 \chapter{Үр дүнгийн боловсруулалт}
 
 \section{Туршилтын үр дүн}
+
+Хэрэв алгоритм зөв ажиллаж байгаа бол reward нь өсөж байх ёстой байдаг. Дундаж reward-ыг авахдаа episode болгоны reward-г олоод үүнийгээ list-д хадгалан аваад энэ list-ээс сүүлийн 40 үр дүнгийн дундажыг олж графикыг зурсан.
+
+Доорх графикын хувьд 800 episode ажилласан бөгөөд босоо тэнхлэгийн дагуу дундаж reward, хэвтээ тэнхлэгийн дагуу episode-г авч байна. Орчны шуугианыг нэмэхдээ Ornstein-Uhlenbeck Process-г ашигласан. Энэ процесс нь өмнөх шуугиантай уялдаа хамааралтай буюу correlated шуугианыг гаргаж өгнө. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{./images/after_800_ep}
+\caption{Correlated noise}
+\end{figure}
+
+1000 episode ажиллуулсны дараа:
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{./images/after_1000_ep2}
+\caption{Correlated noise}
+\end{figure}
+
+Доорх хоёр графикын хувьд 800 episode ажилласан бөгөөд орчны шуугианыг -0.2 оос 0.2-ын хооронд санамсаргүй байдлаар сонгон авч үйлдэл дээрээ нэмж байгаа. Энэ нь өмнөх шуугиантай уялдаа хамааралгүй буюу uncorrelated шуугиан гэсэн үг юм. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{./images/after_800_ep_02}
+\caption{Uncorrelated noise}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{./images/after_800_ep_02_am}
+\caption{Uncorrelated noise 2}
+\end{figure}
+
+Доорх графикын хувьд 800 episode ажилласан бөгөөд орчны шуугианыг -0.4 оос 0.4-ын хооронд санамсаргүй байдлаар сонгон авч үйлдэл дээрээ нэмж байгаа. Энэ нь мөн адил өмнөх шуугиантай уялдаа хамааралгүй буюу uncorrelated шуугиан юм. Графикаас харахад 0.4 өөр сонгон авсан үед нь үр дүн муу гарч байна.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{./images/after_800_ep_04}
+\caption{Uncorrelated noise 0.4}
+\end{figure}
 
 \section{Үр дүнгийн харьцуулалт}
 

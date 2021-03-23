@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.7) (preloaded format=xelatex 2020.10.6)  15 MAR 2021 20:37
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.7) (preloaded format=xelatex 2020.10.6)  23 MAR 2021 16:43
 entering extended mode
 **./main.tex
 (main.tex
@@ -694,7 +694,29 @@ Package nomencl Info: Writing nomenclature file main.nlo on input line 75.
 LaTeX Warning: Unused global option(s):
     [A4].
 
-(main.aux (main-pre.aux) (abstract.aux))
+(main.aux (main-pre.aux) (abstract.aux)
+
+LaTeX Warning: Label `DescriptiveLabel' multiply defined.
+
+
+LaTeX Warning: Label `DescriptiveLabel' multiply defined.
+
+
+LaTeX Warning: Label `DescriptiveLabel' multiply defined.
+
+
+LaTeX Warning: Label `DescriptiveLabel' multiply defined.
+
+
+LaTeX Warning: Label `DescriptiveLabel' multiply defined.
+
+
+LaTeX Warning: Label `DescriptiveLabel' multiply defined.
+
+
+LaTeX Warning: Label `DescriptiveLabel' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
@@ -708,8 +730,7 @@ LaTeX Font Info:    ... okay on input line 76.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 7
 6.
-
-(C:\Users\Asus\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
+ (C:\Users\Asus\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 76.
@@ -1142,40 +1163,54 @@ Overfull \hbox (28.5446pt too wide) in paragraph at lines 188--189
 ллаа. Үүнийг 4 хэсэгт задлан тайлбарлаж
  []
 
-File: ./images/pseudo-code.jpg Graphic file (type bmp)
-<./images/pseudo-code.jpg>
+
+Overfull \hbox (1.96877pt too wide) in paragraph at lines 197--199
+[]\TU/TimesNewRoman(0)/m/n/12 ——————————————————————————————————————
+ []
+
+
+Overfull \hbox (1.96877pt too wide) in paragraph at lines 200--202
+[]\TU/TimesNewRoman(0)/m/n/12 ——————————————————————————————————————
+ []
+
 [4]
-Overfull \hbox (1.13249pt too wide) in paragraph at lines 205--206
+Overfull \hbox (1.13249pt too wide) in paragraph at lines 243--244
 \TU/TimesNewRoman(0)/m/n/12 DDPG алгоритм нь replay buffer-ыг туршлагыг цуглуул
 ахад ашигладаг. Цуглуулсан туршлагаа
  []
 
 
-Overfull \hbox (40.47333pt too wide) in paragraph at lines 205--206
+Overfull \hbox (40.47333pt too wide) in paragraph at lines 243--244
 \TU/TimesNewRoman(0)/m/n/12 неороны сүлжээний параметрүүдийг шинэчлэхэд ашиглад
 аг. Value болон policy сүлжээг шинэчлэхдээ
  []
 
 [5]
-Overfull \hbox (49.6758pt too wide) in paragraph at lines 237--238
+Overfull \hbox (49.6758pt too wide) in paragraph at lines 275--276
 []\TU/TimesNewRoman(0)/m/n/12 Policy-гоо off-policy байдлаар шинэчлэж байгаа уч
 ир санамсаргүй байдлаар авсан туршлагуудынхаа
  []
 
 [6]
-Overfull \hbox (8.48439pt too wide) in paragraph at lines 271--272
+Overfull \hbox (8.48439pt too wide) in paragraph at lines 309--310
 []\TU/TimesNewRoman(0)/m/n/12 Gym бол reinforcement learning буюу бататгасан су
 ргалтын алгоритмуудыг хөгжүүлэх болон
  []
 
 [7]
-Overfull \hbox (12.20996pt too wide) in paragraph at lines 282--283
+Overfull \hbox (12.20996pt too wide) in paragraph at lines 320--321
 []\TU/TimesNewRoman(0)/m/n/12 Гэсэн хэдий ч RL судалгааны ажлыг RL-ын open-sour
 ce орчин хангалттай олон янз байдаггүй
  []
 
 
-Overfull \hbox (4.74872pt too wide) in paragraph at lines 293--294
+Overfull \hbox (5.74382pt too wide) in paragraph at lines 324--325
+\TU/TimesNewRoman(0)/m/n/12 хэлэнд ихээр ашиглагддаг ч мөн С++ програмчлалын хэ
+лд ашиглагддаг. Энэ нь GPU ашигладаг.
+ []
+
+
+Overfull \hbox (4.74872pt too wide) in paragraph at lines 331--332
 \TU/TimesNewRoman(0)/m/n/12 Учир нь маш нарийн төвөгтэй неороны сүлжээг хялбара
 ар бий болгодог. Мөн кодоо шалгахдаа
  []
@@ -1184,80 +1219,119 @@ Overfull \hbox (4.74872pt too wide) in paragraph at lines 293--294
 \uppercase {Бүлэг}2.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 295.
+(hyperref)                removing `\uppercase' on input line 333.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--296
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
 
  []
+
+File: ./images/bipedalwalker.jpg Graphic file (type bmp)
+<./images/bipedalwalker.jpg>
+(C:\Users\Asus\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 347.
 
 [9
 
 ]
+Overfull \hbox (2.9684pt too wide) in paragraph at lines 355--356
+\TU/TimesNewRoman(0)/m/n/12 Үүсгэхдээ төлөвийн хэмжээс, үйлдлийн хэмжээс, хийж 
+болох үйлдлийн тоо зэргийг ашиглана. 
+ []
+
+[10] [11]
+Missing character: There is no щ in font [lmmono10-regular]:!
+Missing character: There is no щ in font [lmmono10-regular]:!
+ [12]
 \uppercase {Бүлэг}3.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 297.
+(hyperref)                removing `\uppercase' on input line 425.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--298
+Underfull \hbox (badness 10000) in paragraph at lines 425--426
 
  []
 
-[10
+File: ./images/after_800_ep.jpg Graphic file (type bmp)
+<./images/after_800_ep.jpg>
+File: ./images/after_1000_ep2.jpg Graphic file (type bmp)
+<./images/after_1000_ep2.jpg>
+[13
 
 ]
+File: ./images/after_800_ep_02.jpg Graphic file (type bmp)
+<./images/after_800_ep_02.jpg>
+ [14]
+File: ./images/after_800_ep_02_am.jpg Graphic file (type bmp)
+<./images/after_800_ep_02_am.jpg>
+ [15]
+File: ./images/after_800_ep_04.jpg Graphic file (type bmp)
+<./images/after_800_ep_04.jpg>
+ [16] [17]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 307.
+(hyperref)                removing `\uppercase' on input line 475.
 
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 319--320
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 487--488
 []\TU/TimesNewRoman(0)/m/n/12 Deep Deterministic Policy Gradients Explained, To
 wardsDataScience, []$[][][][][] [] [] []
  []
 
 
-Overfull \hbox (45.00438pt too wide) in paragraph at lines 319--320
+Overfull \hbox (45.00438pt too wide) in paragraph at lines 487--488
 [][][][][][][][][][][][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][]$[] 
  []
 
-[12
+[19
 
 ]
 AppendixA.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 338.
+(hyperref)                removing `\uppercase' on input line 506.
 
-[13
+[20
 
 ]
 AppendixB.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 342.
+(hyperref)                removing `\uppercase' on input line 510.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 342--343
+Underfull \hbox (badness 10000) in paragraph at lines 510--511
 
  []
 
-[14
+[21
 
 ] (main.aux (main-pre.aux) (abstract.aux))
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A835F31975A3C22D3F1A46FCCE00BD9E;2205.
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: BBDD9800F9CD95D841E22E4F181AE515;2205
+(rerunfilecheck)             After:  51BAFB41991B887140E0BA9FC4A7A409;2205.
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 20576 strings out of 412249
- 356870 string characters out of 2851560
- 743733 words of memory out of 3000000
- 39722 multiletter control sequences out of 15000+200000
- 541270 words of font info for 92 fonts, out of 3000000 for 9000
+ 20870 strings out of 412249
+ 361371 string characters out of 2851560
+ 1036399 words of memory out of 3000000
+ 40005 multiletter control sequences out of 15000+200000
+ 541278 words of font info for 93 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 96i,13n,111p,550b,404s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 96i,13n,111p,550b,1266s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (21 pages).
+Output written on main.pdf (28 pages).
