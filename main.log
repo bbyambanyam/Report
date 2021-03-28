@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.7) (preloaded format=xelatex 2020.10.6)  23 MAR 2021 16:43
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.7) (preloaded format=xelatex 2020.10.6)  28 MAR 2021 16:22
 entering extended mode
 **./main.tex
 (main.tex
@@ -1123,9 +1123,9 @@ t line 134.
 File: ./images/rl.png Graphic file (type bmp)
 <./images/rl.png>
 
-Overfull \hbox (7.72919pt too wide) in paragraph at lines 144--145
-\TU/TimesNewRoman(0)/m/n/12 дараагийн төлөв болон reward-ыг илгээнэ. Агент нь о
-рчиноос хүлээн авсан reward-аар мэдлэгээ
+Overfull \hbox (23.4258pt too wide) in paragraph at lines 144--145
+[]\TU/TimesNewRoman(0)/m/n/12 Орчин нь агентруу төлөвийг илгээх байдлаар эхэлдэ
+г бөгөөд агент нь мэдлэг дээрээ тулгуурлан
  []
 
 [2
@@ -1134,6 +1134,12 @@ Overfull \hbox (7.72919pt too wide) in paragraph at lines 144--145
 
 
 ]
+Overfull \hbox (37.68427pt too wide) in paragraph at lines 154--155
+[]\TU/TimesNewRoman(0)/m/n/12 Q-value эсвэл action-value(Q): Value-тай төстэй. 
+Гэхдээ одоогийн үйлдлийг нэмэлт параметрээр
+ []
+
+
 Overfull \hbox (9.85419pt too wide) in paragraph at lines 161--162
 []\TU/TimesNewRoman(0)/m/n/12 Model-free гэдэг нь мэдлэгээ шинэчлэхийн тулд тур
 шилт ба алдаанд тулгуурладаг. Төлөвүүд
@@ -1186,8 +1192,14 @@ Overfull \hbox (40.47333pt too wide) in paragraph at lines 243--244
  []
 
 [5]
-Overfull \hbox (49.6758pt too wide) in paragraph at lines 275--276
-[]\TU/TimesNewRoman(0)/m/n/12 Policy-гоо off-policy байдлаар шинэчлэж байгаа уч
+Overfull \hbox (1.39064pt too wide) in paragraph at lines 245--246
+[]\TU/TimesNewRoman(0)/m/n/12 Яагаад replay buffer-ыг ашиглаж байгаа вэ гэхээр 
+алгоритмд хамааралгүй байдлаар тархсан
+ []
+
+
+Overfull \hbox (51.3926pt too wide) in paragraph at lines 275--276
+[]\TU/TimesNewRoman(0)/m/n/12 Policy-гоо off-policy байдлаар шинэчилж байгаа уч
 ир санамсаргүй байдлаар авсан туршлагуудынхаа
  []
 
@@ -1204,25 +1216,31 @@ ce орчин хангалттай олон янз байдаггүй
  []
 
 
-Overfull \hbox (5.74382pt too wide) in paragraph at lines 324--325
+Overfull \hbox (0.50319pt too wide) in paragraph at lines 326--327
+[]\TU/TimesNewRoman(0)/m/n/12 Төлөв нь их биений өнцгийн хурд, өнцгийн хурд, хэ
+втээ хурд, босоо хурд, хөлний байрлал,
+ []
+
+
+Overfull \hbox (5.74382pt too wide) in paragraph at lines 330--331
 \TU/TimesNewRoman(0)/m/n/12 хэлэнд ихээр ашиглагддаг ч мөн С++ програмчлалын хэ
 лд ашиглагддаг. Энэ нь GPU ашигладаг.
  []
 
-
-Overfull \hbox (4.74872pt too wide) in paragraph at lines 331--332
+[8]
+Overfull \hbox (4.74872pt too wide) in paragraph at lines 337--338
 \TU/TimesNewRoman(0)/m/n/12 Учир нь маш нарийн төвөгтэй неороны сүлжээг хялбара
 ар бий болгодог. Мөн кодоо шалгахдаа
  []
 
-[8]
+[9]
 \uppercase {Бүлэг}2.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 333.
+(hyperref)                removing `\uppercase' on input line 339.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 333--334
+Underfull \hbox (badness 10000) in paragraph at lines 339--340
 
  []
 
@@ -1232,106 +1250,107 @@ File: ./images/bipedalwalker.jpg Graphic file (type bmp)
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 347.
+nput line 353.
 
-[9
+[10
 
 ]
-Overfull \hbox (2.9684pt too wide) in paragraph at lines 355--356
+Overfull \hbox (2.9684pt too wide) in paragraph at lines 361--362
 \TU/TimesNewRoman(0)/m/n/12 Үүсгэхдээ төлөвийн хэмжээс, үйлдлийн хэмжээс, хийж 
 болох үйлдлийн тоо зэргийг ашиглана. 
  []
 
-[10] [11]
+[11] [12]
 Missing character: There is no щ in font [lmmono10-regular]:!
 Missing character: There is no щ in font [lmmono10-regular]:!
- [12]
+ [13]
 \uppercase {Бүлэг}3.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 425.
+(hyperref)                removing `\uppercase' on input line 437.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--426
+Underfull \hbox (badness 10000) in paragraph at lines 437--438
 
+ []
+
+
+Overfull \hbox (11.20575pt too wide) in paragraph at lines 443--444
+\TU/TimesNewRoman(0)/m/n/12 Ornstein-Uhlenbeck Process-г ашигласан. Энэ процесс
+ нь өмнөх шуугиантай уялдаа хамааралтай
  []
 
 File: ./images/after_800_ep.jpg Graphic file (type bmp)
 <./images/after_800_ep.jpg>
 File: ./images/after_1000_ep2.jpg Graphic file (type bmp)
 <./images/after_1000_ep2.jpg>
-[13
+[14
 
 ]
 File: ./images/after_800_ep_02.jpg Graphic file (type bmp)
 <./images/after_800_ep_02.jpg>
- [14]
+ [15]
 File: ./images/after_800_ep_02_am.jpg Graphic file (type bmp)
 <./images/after_800_ep_02_am.jpg>
- [15]
+ [16]
 File: ./images/after_800_ep_04.jpg Graphic file (type bmp)
 <./images/after_800_ep_04.jpg>
- [16] [17]
+ [17] [18]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 475.
+(hyperref)                removing `\uppercase' on input line 489.
 
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 487--488
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 501--502
 []\TU/TimesNewRoman(0)/m/n/12 Deep Deterministic Policy Gradients Explained, To
 wardsDataScience, []$[][][][][] [] [] []
  []
 
 
-Overfull \hbox (45.00438pt too wide) in paragraph at lines 487--488
+Overfull \hbox (45.00438pt too wide) in paragraph at lines 501--502
 [][][][][][][][][][][][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][]$[] 
  []
 
-[19
+[20
 
 ]
 AppendixA.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 506.
+(hyperref)                removing `\uppercase' on input line 518.
 
-[20
+[21
 
 ]
 AppendixB.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 510.
+(hyperref)                removing `\uppercase' on input line 522.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 510--511
+Underfull \hbox (badness 10000) in paragraph at lines 522--523
 
  []
 
-[21
+[22
 
 ] (main.aux (main-pre.aux) (abstract.aux))
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 51BAFB41991B887140E0BA9FC4A7A409;2205.
 
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: BBDD9800F9CD95D841E22E4F181AE515;2205
-(rerunfilecheck)             After:  51BAFB41991B887140E0BA9FC4A7A409;2205.
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 20870 strings out of 412249
- 361371 string characters out of 2851560
- 1036399 words of memory out of 3000000
- 40005 multiletter control sequences out of 15000+200000
+ 20871 strings out of 412249
+ 361387 string characters out of 2851560
+ 1036372 words of memory out of 3000000
+ 40006 multiletter control sequences out of 15000+200000
  541278 words of font info for 93 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 96i,13n,111p,550b,1266s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 96i,13n,111p,549b,1861s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (28 pages).
+Output written on main.pdf (29 pages).
