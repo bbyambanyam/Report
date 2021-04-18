@@ -2,27 +2,38 @@
 \contentsline {section}{\numberline {0.1}Зорилго}{1}{section.0.1}%
 \contentsline {section}{\numberline {0.2}Зорилтууд}{1}{section.0.2}%
 \contentsline {chapter}{\numberline {1.}\uppercase {Судалгаа}}{2}{chapter.1}%
-\contentsline {section}{\numberline {1.1}DDPG алгоритм}{2}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Бататгасан сургалтын алгоритм}{2}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}Бататгасан сургалттай холбоотай нэр томъёо}{3}{subsection.1.1.2}%
-\contentsline {subsubsection}{Model-free болон Model-based}{3}{section*.3}%
-\contentsline {subsubsection}{On-policy болон off-policy}{3}{section*.4}%
-\contentsline {subsection}{\numberline {1.1.3}DDPG алгоритм}{3}{subsection.1.1.3}%
-\contentsline {subsubsection}{Replay buffer}{5}{section*.5}%
-\contentsline {subsubsection}{Actor (Policy) болон Critic (Value) сүлжээг шинэчлэх}{6}{section*.6}%
-\contentsline {subsubsection}{Target сүлжээг шинэчлэх}{7}{section*.7}%
-\contentsline {subsubsection}{Судалгаа шинжилгээ}{7}{section*.8}%
-\contentsline {section}{\numberline {1.2}Ашигласан технологи}{7}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Gym}{7}{subsection.1.2.1}%
-\contentsline {subsubsection}{Яагаад үүнийг ашигладаг вэ?}{8}{section*.9}%
-\contentsline {subsection}{\numberline {1.2.2}BiPedalWalker-v2}{8}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}Pytorch}{8}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.1}Бататгасан сургалтын алгоритм}{2}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Бататгасан сургалттай холбоотай нэр томъёо}{2}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Model-free}{3}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}On-policy болон off-policy}{3}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.4}Суралцах үйл явц}{3}{subsection.1.1.4}%
+\contentsline {section}{\numberline {1.2}Гүн неороны сүлжээ}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}DDPG алгоритм}{4}{section.1.3}%
+\contentsline {subsubsection}{Replay buffer}{6}{section*.3}%
+\contentsline {subsubsection}{Actor болон Critic сүлжээг шинэчлэх}{6}{section*.4}%
+\contentsline {subsubsection}{Target сүлжээг шинэчлэх}{7}{section*.5}%
+\contentsline {subsubsection}{Шуугиан нэмэх}{7}{section*.6}%
+\contentsline {section}{\numberline {1.4}Хиперпараметрүүдийн тохируулга}{8}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Орчны шуугиан}{8}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Ашигласан технологи}{8}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}Gym}{8}{subsection.1.6.1}%
+\contentsline {subsubsection}{Яагаад үүнийг ашигладаг вэ?}{8}{section*.7}%
+\contentsline {subsection}{\numberline {1.6.2}BiPedalWalker-v2}{9}{subsection.1.6.2}%
+\contentsline {subsection}{\numberline {1.6.3}Pytorch}{9}{subsection.1.6.3}%
 \contentsline {chapter}{\numberline {2.}\uppercase {Хэрэгжүүлэлт}}{10}{chapter.2}%
-\contentsline {chapter}{\numberline {3.}\uppercase {Үр дүнгийн боловсруулалт}}{14}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Туршилтын үр дүн}{14}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Үр дүнгийн харьцуулалт}{18}{section.3.2}%
-\contentsline {part}{\uppercase {Дүгнэлт}}{19}{section.3.2}%
-\contentsline {part}{НОМ ЗҮЙ}{19}{section.3.2}%
-\contentsline {part}{ХАВСРАЛТ}{20}{chapter*.16}%
-\contentsline {chapter}{\numberline {A.}\uppercase {А}}{21}{appendix.A}%
-\contentsline {chapter}{\numberline {B.}\uppercase {Кодын хэрэгжүүлэлт}}{22}{appendix.B}%
+\contentsline {section}{\numberline {2.1}Алгоритмын хэрэгжүүлэлт}{10}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Алгоритмын турших орчин}{10}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Хипер параметрүүд}{11}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.3}Чухал кодын хэсгүүд}{12}{section.2.3}%
+\contentsline {chapter}{\numberline {3.}\uppercase {Үр дүнгийн боловсруулалт}}{15}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Туршилтын үр дүн}{15}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Үйлдлийн орчны шуугиан}{15}{subsection.3.1.1}%
+\contentsline {subsubsection}{Correlated шуугиан}{15}{section*.9}%
+\contentsline {subsubsection}{Uncorrelated шуугиан}{16}{section*.12}%
+\contentsline {subsection}{\numberline {3.1.2}Parameter Space Noise}{19}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Үр дүнгийн харьцуулалт}{19}{section.3.2}%
+\contentsline {part}{\uppercase {Дүгнэлт}}{20}{section.3.2}%
+\contentsline {part}{НОМ ЗҮЙ}{20}{section.3.2}%
+\contentsline {part}{ХАВСРАЛТ}{21}{chapter*.16}%
+\contentsline {chapter}{\numberline {A.}\uppercase {А}}{22}{appendix.A}%
+\contentsline {chapter}{\numberline {B.}\uppercase {Кодын хэрэгжүүлэлт}}{23}{appendix.B}%

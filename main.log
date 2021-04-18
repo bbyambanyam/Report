@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.7) (preloaded format=xelatex 2020.10.6)  28 MAR 2021 16:22
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.7) (preloaded format=xelatex 2020.10.6)  18 APR 2021 16:29
 entering extended mode
 **./main.tex
 (main.tex
@@ -716,6 +716,9 @@ LaTeX Warning: Label `DescriptiveLabel' multiply defined.
 
 LaTeX Warning: Label `DescriptiveLabel' multiply defined.
 
+
+LaTeX Warning: Label `DescriptiveLabel' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
@@ -1081,6 +1084,11 @@ ed.
 \openout2 = `abstract.aux'.
 
  (abstract.tex
+Overfull \hbox (1.40302pt too wide) in paragraph at lines 2--3
+\TU/TimesNewRoman(0)/m/n/12 тул action space noise буюу үйлдлийн шуугиан ашигла
+гдана. Энэ судалгааны ажлаар 3 төрлийн
+ []
+
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 4.
@@ -1107,128 +1115,128 @@ Underfull \hbox (badness 10000) in paragraph at lines 128--129
  []
 
 
-Overfull \hbox (7.21095pt too wide) in paragraph at lines 132--133
-[]\TU/TimesNewRoman(0)/m/n/12 Алгоритмыг тайлбарлахаас өмнө Reinforcement Learn
-ing буюу бататгасан сургалтын талаар
+Overfull \hbox (3.18457pt too wide) in paragraph at lines 132--133
+[]\TU/TimesNewRoman(0)/m/n/12 DDPG алгоритмыг тайлбарлахаас өмнө Reinforcement 
+Learning буюу бататгасан сургалтын
+ []
+
+File: ./images/rl.png Graphic file (type bmp)
+<./images/rl.png>
+
+Overfull \hbox (23.4258pt too wide) in paragraph at lines 142--143
+[]\TU/TimesNewRoman(0)/m/n/12 Орчин нь агентруу төлөвийг илгээх байдлаар эхэлдэ
+г бөгөөд агент нь мэдлэг дээрээ тулгуурлан
  []
 
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/sl' in size <12> not avai
 lable
 (Font)              Font shape `TU/TimesNewRoman(0)/m/it' tried instead on inpu
-t line 134.
+t line 144.
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/sl' in size <12> not avai
 lable
 (Font)              Font shape `TU/TimesNewRoman(0)/b/it' tried instead on inpu
-t line 134.
-File: ./images/rl.png Graphic file (type bmp)
-<./images/rl.png>
-
-Overfull \hbox (23.4258pt too wide) in paragraph at lines 144--145
-[]\TU/TimesNewRoman(0)/m/n/12 Орчин нь агентруу төлөвийг илгээх байдлаар эхэлдэ
-г бөгөөд агент нь мэдлэг дээрээ тулгуурлан
- []
-
+t line 144.
 [2
 
 
 
 
 ]
-Overfull \hbox (37.68427pt too wide) in paragraph at lines 154--155
+Overfull \hbox (37.68427pt too wide) in paragraph at lines 152--153
 []\TU/TimesNewRoman(0)/m/n/12 Q-value эсвэл action-value(Q): Value-тай төстэй. 
 Гэхдээ одоогийн үйлдлийг нэмэлт параметрээр
  []
 
-
-Overfull \hbox (9.85419pt too wide) in paragraph at lines 161--162
-[]\TU/TimesNewRoman(0)/m/n/12 Model-free гэдэг нь мэдлэгээ шинэчлэхийн тулд тур
-шилт ба алдаанд тулгуурладаг. Төлөвүүд
+[3]
+Overfull \hbox (5.73714pt too wide) in paragraph at lines 181--182
+[]\TU/TimesNewRoman(0)/m/n/12 Эхний давхаргыг оролт болгон ашигласнаар оролтыг 
+өөр давхаргаар дамжуулж, сүлжээний
  []
 
 
-Overfull \hbox (16.8338pt too wide) in paragraph at lines 169--170
+Overfull \hbox (16.8338pt too wide) in paragraph at lines 185--186
 []\TU/TimesNewRoman(0)/m/n/12 Deep Deterministic Policy Gradient (DDPG) бол үрг
 элжилсэн, тасралтгүй үйлдлүүдийг сурахад
  []
 
-[3]
-Overfull \hbox (17.19012pt too wide) in paragraph at lines 182--183
-[]\TU/TimesNewRoman(0)/m/n/12 Actor (Deterministic policy function) - төлөвөөс 
-хамааран үйлдлийг санал болгоно. Төлөвийг
- []
 
-
-Overfull \hbox (7.63739pt too wide) in paragraph at lines 186--187
-\TU/TimesNewRoman(0)/m/n/12 хоцрогдолтой хуулбарууд юм. Эдгээр сүлжээг ашиглан 
-тогтвортой сурах байдлыг сайжруулдаг. 
- []
-
-
-Overfull \hbox (28.5446pt too wide) in paragraph at lines 188--189
-[]\TU/TimesNewRoman(0)/m/n/12 Доорх зурагт DPDG алгоритмын pseudo-code-ыг харуу
-ллаа. Үүнийг 4 хэсэгт задлан тайлбарлаж
- []
-
-
-Overfull \hbox (1.96877pt too wide) in paragraph at lines 197--199
-[]\TU/TimesNewRoman(0)/m/n/12 ——————————————————————————————————————
- []
-
-
-Overfull \hbox (1.96877pt too wide) in paragraph at lines 200--202
-[]\TU/TimesNewRoman(0)/m/n/12 ——————————————————————————————————————
+Overfull \hbox (5.78908pt too wide) in paragraph at lines 197--198
+[]\TU/TimesNewRoman(0)/m/n/12 Target network нь суралцсан сүлжээнүүдийг хянаж б
+айдаг эх сүлжээнүүдийнхээ хуулбарууд
  []
 
 [4]
-Overfull \hbox (1.13249pt too wide) in paragraph at lines 243--244
+Overfull \hbox (1.96877pt too wide) in paragraph at lines 208--210
+[]\TU/TimesNewRoman(0)/m/n/12 ——————————————————————————————————————
+ []
+
+
+Overfull \hbox (1.96877pt too wide) in paragraph at lines 211--213
+[]\TU/TimesNewRoman(0)/m/n/12 ——————————————————————————————————————
+ []
+
+[5]
+Overfull \hbox (1.13249pt too wide) in paragraph at lines 254--255
 \TU/TimesNewRoman(0)/m/n/12 DDPG алгоритм нь replay buffer-ыг туршлагыг цуглуул
 ахад ашигладаг. Цуглуулсан туршлагаа
  []
 
 
-Overfull \hbox (40.47333pt too wide) in paragraph at lines 243--244
+Overfull \hbox (40.47333pt too wide) in paragraph at lines 254--255
 \TU/TimesNewRoman(0)/m/n/12 неороны сүлжээний параметрүүдийг шинэчлэхэд ашиглад
 аг. Value болон policy сүлжээг шинэчлэхдээ
  []
 
-[5]
-Overfull \hbox (1.39064pt too wide) in paragraph at lines 245--246
+
+Overfull \hbox (1.39064pt too wide) in paragraph at lines 256--257
 []\TU/TimesNewRoman(0)/m/n/12 Яагаад replay buffer-ыг ашиглаж байгаа вэ гэхээр 
 алгоритмд хамааралгүй байдлаар тархсан
  []
 
-
-Overfull \hbox (51.3926pt too wide) in paragraph at lines 275--276
+[6]
+Overfull \hbox (51.3926pt too wide) in paragraph at lines 286--287
 []\TU/TimesNewRoman(0)/m/n/12 Policy-гоо off-policy байдлаар шинэчилж байгаа уч
 ир санамсаргүй байдлаар авсан туршлагуудынхаа
  []
 
-[6]
-Overfull \hbox (8.48439pt too wide) in paragraph at lines 309--310
+
+Overfull \hbox (54.95996pt too wide) in paragraph at lines 316--317
+[]\TU/TimesNewRoman(0)/m/n/12 RL алгоритмууд нь алгоритм хэрхэн ажиллахыг өөрчи
+лдөг параметрүүд болох хиперпараметрүүдтэй
+ []
+
+
+Overfull \hbox (2.91798pt too wide) in paragraph at lines 316--317
+\TU/TimesNewRoman(0)/m/n/12 ажиллаж байгаа болохыг олж мэдэхийн тулд хиперпарам
+етрын тохируулга хийх шаардлагатай
+ []
+
+[7]
+Overfull \hbox (8.48439pt too wide) in paragraph at lines 326--327
 []\TU/TimesNewRoman(0)/m/n/12 Gym бол reinforcement learning буюу бататгасан су
 ргалтын алгоритмуудыг хөгжүүлэх болон
  []
 
-[7]
-Overfull \hbox (12.20996pt too wide) in paragraph at lines 320--321
+
+Overfull \hbox (12.20996pt too wide) in paragraph at lines 337--338
 []\TU/TimesNewRoman(0)/m/n/12 Гэсэн хэдий ч RL судалгааны ажлыг RL-ын open-sour
 ce орчин хангалттай олон янз байдаггүй
  []
 
-
-Overfull \hbox (0.50319pt too wide) in paragraph at lines 326--327
+[8]
+Overfull \hbox (0.50319pt too wide) in paragraph at lines 343--344
 []\TU/TimesNewRoman(0)/m/n/12 Төлөв нь их биений өнцгийн хурд, өнцгийн хурд, хэ
 втээ хурд, босоо хурд, хөлний байрлал,
  []
 
 
-Overfull \hbox (5.74382pt too wide) in paragraph at lines 330--331
+Overfull \hbox (5.74382pt too wide) in paragraph at lines 347--348
 \TU/TimesNewRoman(0)/m/n/12 хэлэнд ихээр ашиглагддаг ч мөн С++ програмчлалын хэ
 лд ашиглагддаг. Энэ нь GPU ашигладаг.
  []
 
-[8]
-Overfull \hbox (4.74872pt too wide) in paragraph at lines 337--338
+
+Overfull \hbox (4.74872pt too wide) in paragraph at lines 354--355
 \TU/TimesNewRoman(0)/m/n/12 Учир нь маш нарийн төвөгтэй неороны сүлжээг хялбара
 ар бий болгодог. Мөн кодоо шалгахдаа
  []
@@ -1237,10 +1245,10 @@ Overfull \hbox (4.74872pt too wide) in paragraph at lines 337--338
 \uppercase {Бүлэг}2.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 339.
+(hyperref)                removing `\uppercase' on input line 356.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 339--340
+Underfull \hbox (badness 10000) in paragraph at lines 356--357
 
  []
 
@@ -1249,33 +1257,39 @@ File: ./images/bipedalwalker.jpg Graphic file (type bmp)
 (C:\Users\Asus\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 353.
-
 [10
 
 ]
-Overfull \hbox (2.9684pt too wide) in paragraph at lines 361--362
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 374.
+
+Overfull \hbox (37.03517pt too wide) in paragraph at lines 384--385
+[]\TU/TimesNewRoman(0)/m/n/12 Доорх DDPG-ийн хипер параметрүүд нь BiPedalWalker
+-V3 орчныг шийдвэрлэхэд тохируулагдсан
+ []
+
+
+Overfull \hbox (2.9684pt too wide) in paragraph at lines 401--402
 \TU/TimesNewRoman(0)/m/n/12 Үүсгэхдээ төлөвийн хэмжээс, үйлдлийн хэмжээс, хийж 
 болох үйлдлийн тоо зэргийг ашиглана. 
  []
 
-[11] [12]
+[11] [12] [13]
 Missing character: There is no щ in font [lmmono10-regular]:!
 Missing character: There is no щ in font [lmmono10-regular]:!
- [13]
+ [14]
 \uppercase {Бүлэг}3.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 437.
+(hyperref)                removing `\uppercase' on input line 477.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 437--438
+Underfull \hbox (badness 10000) in paragraph at lines 477--478
 
  []
 
 
-Overfull \hbox (11.20575pt too wide) in paragraph at lines 443--444
+Overfull \hbox (11.20575pt too wide) in paragraph at lines 487--488
 \TU/TimesNewRoman(0)/m/n/12 Ornstein-Uhlenbeck Process-г ашигласан. Энэ процесс
  нь өмнөх шуугиантай уялдаа хамааралтай
  []
@@ -1284,73 +1298,73 @@ File: ./images/after_800_ep.jpg Graphic file (type bmp)
 <./images/after_800_ep.jpg>
 File: ./images/after_1000_ep2.jpg Graphic file (type bmp)
 <./images/after_1000_ep2.jpg>
-[14
+[15
 
 ]
 File: ./images/after_800_ep_02.jpg Graphic file (type bmp)
 <./images/after_800_ep_02.jpg>
- [15]
+ [16]
 File: ./images/after_800_ep_02_am.jpg Graphic file (type bmp)
 <./images/after_800_ep_02_am.jpg>
- [16]
+ [17]
 File: ./images/after_800_ep_04.jpg Graphic file (type bmp)
 <./images/after_800_ep_04.jpg>
- [17] [18]
+ [18] [19]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 489.
+(hyperref)                removing `\uppercase' on input line 537.
 
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 501--502
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 549--550
 []\TU/TimesNewRoman(0)/m/n/12 Deep Deterministic Policy Gradients Explained, To
 wardsDataScience, []$[][][][][] [] [] []
  []
 
 
-Overfull \hbox (45.00438pt too wide) in paragraph at lines 501--502
+Overfull \hbox (45.00438pt too wide) in paragraph at lines 549--550
 [][][][][][][][][][][][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][]$[] 
  []
 
-[20
+[21
 
 ]
 AppendixA.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 518.
+(hyperref)                removing `\uppercase' on input line 566.
 
-[21
+[22
 
 ]
 AppendixB.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 522.
+(hyperref)                removing `\uppercase' on input line 570.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 522--523
+Underfull \hbox (badness 10000) in paragraph at lines 570--571
 
  []
 
-[22
+[23
 
 ] (main.aux (main-pre.aux) (abstract.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 51BAFB41991B887140E0BA9FC4A7A409;2205.
+(rerunfilecheck)             Checksum: 2205E10E5211CC6165B5543154744AEA;3830.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 20871 strings out of 412249
- 361387 string characters out of 2851560
- 1036372 words of memory out of 3000000
- 40006 multiletter control sequences out of 15000+200000
+ 20872 strings out of 412249
+ 361398 string characters out of 2851560
+ 1034619 words of memory out of 3000000
+ 40007 multiletter control sequences out of 15000+200000
  541278 words of font info for 93 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 96i,13n,111p,549b,1861s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 96i,13n,111p,564b,1861s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (29 pages).
+Output written on main.pdf (30 pages).
