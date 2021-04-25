@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.7) (preloaded format=xelatex 2020.10.6)  22 APR 2021 21:50
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.7) (preloaded format=xelatex 2020.10.6)  25 APR 2021 16:53
 entering extended mode
 **./main.tex
 (main.tex
@@ -719,6 +719,30 @@ LaTeX Warning: Label `DescriptiveLabel' multiply defined.
 
 LaTeX Warning: Label `DescriptiveLabel' multiply defined.
 
+
+LaTeX Warning: Label `DescriptiveLabel' multiply defined.
+
+
+LaTeX Warning: Label `DescriptiveLabel' multiply defined.
+
+
+LaTeX Warning: Label `DescriptiveLabel' multiply defined.
+
+
+LaTeX Warning: Label `list' multiply defined.
+
+
+LaTeX Warning: Label `DescriptiveLabel' multiply defined.
+
+
+LaTeX Warning: Label `DescriptiveLabel' multiply defined.
+
+
+LaTeX Warning: Label `DescriptiveLabel' multiply defined.
+
+
+LaTeX Warning: Label `DescriptiveLabel' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
@@ -1211,80 +1235,70 @@ Overfull \hbox (5.78908pt too wide) in paragraph at lines 209--210
  []
 
 [6]
-Overfull \hbox (1.96877pt too wide) in paragraph at lines 220--222
-[]\TU/TimesNewRoman(0)/m/n/12 ——————————————————————————————————————
- []
-
-
-Overfull \hbox (1.96877pt too wide) in paragraph at lines 223--225
-[]\TU/TimesNewRoman(0)/m/n/12 ——————————————————————————————————————
- []
-
-
-Overfull \hbox (1.13249pt too wide) in paragraph at lines 266--267
+Overfull \hbox (1.13249pt too wide) in paragraph at lines 264--265
 \TU/TimesNewRoman(0)/m/n/12 DDPG алгоритм нь replay buffer-ыг туршлагыг цуглуул
 ахад ашигладаг. Цуглуулсан туршлагаа
  []
 
 
-Overfull \hbox (40.47333pt too wide) in paragraph at lines 266--267
+Overfull \hbox (40.47333pt too wide) in paragraph at lines 264--265
 \TU/TimesNewRoman(0)/m/n/12 неороны сүлжээний параметрүүдийг шинэчлэхэд ашиглад
 аг. Value болон policy сүлжээг шинэчлэхдээ
  []
 
 [7]
-Overfull \hbox (1.39064pt too wide) in paragraph at lines 268--269
+Overfull \hbox (1.39064pt too wide) in paragraph at lines 266--267
 []\TU/TimesNewRoman(0)/m/n/12 Яагаад replay buffer-ыг ашиглаж байгаа вэ гэхээр 
 алгоритмд хамааралгүй байдлаар тархсан
  []
 
 
-Overfull \hbox (51.3926pt too wide) in paragraph at lines 298--299
+Overfull \hbox (51.3926pt too wide) in paragraph at lines 296--297
 []\TU/TimesNewRoman(0)/m/n/12 Policy-гоо off-policy байдлаар шинэчилж байгаа уч
 ир санамсаргүй байдлаар авсан туршлагуудынхаа
  []
 
 [8]
-Overfull \hbox (54.95996pt too wide) in paragraph at lines 328--329
+Overfull \hbox (54.95996pt too wide) in paragraph at lines 326--327
 []\TU/TimesNewRoman(0)/m/n/12 RL алгоритмууд нь алгоритм хэрхэн ажиллахыг өөрчи
 лдөг параметрүүд болох хиперпараметрүүдтэй
  []
 
 
-Overfull \hbox (7.83986pt too wide) in paragraph at lines 328--329
+Overfull \hbox (7.83986pt too wide) in paragraph at lines 326--327
 \TU/TimesNewRoman(0)/m/n/12 ажиллаж байгааг болохыг олж мэдэхийн тулд хиперпара
 метрын тохируулга хийх шаардлагатай
  []
 
 
-Overfull \hbox (40.40723pt too wide) in paragraph at lines 332--333
+Overfull \hbox (40.40723pt too wide) in paragraph at lines 330--331
 []\TU/TimesNewRoman(0)/m/n/12 RL алгоритмд ашигладаг ихэнх полиси нь стохастик 
 буюу санамсаргүй байдлаар тодорхойлогдсон
  []
 
 
-Overfull \hbox (5.39325pt too wide) in paragraph at lines 332--333
+Overfull \hbox (5.39325pt too wide) in paragraph at lines 330--331
 \TU/TimesNewRoman(0)/m/n/12 түүвэрлэлтийн (sampling) улмаас өөр өөр үйлдэл хийж
  болно гэсэн үг юм. Эдгээр үйлдлүүдийн
  []
 
 
-Overfull \hbox (11.10939pt too wide) in paragraph at lines 332--333
+Overfull \hbox (6.32814pt too wide) in paragraph at lines 330--331
 \TU/TimesNewRoman(0)/m/n/12 зарим нь оновчтой зарим нь оновчгүй байх бөгөөд оно
-вчгүй үйлдлийг багасгахын тулд агентийн
+вчгүй үйлдлийг багасгахын тулд агентын
  []
 
 [9]
 File: ./images/p_diag_1.png Graphic file (type bmp)
 <./images/p_diag_1.png>
 
-Overfull \hbox (19.40106pt too wide) in paragraph at lines 344--345
+Overfull \hbox (19.40106pt too wide) in paragraph at lines 342--343
 []\TU/TimesNewRoman(0)/m/n/12 Үйлдлийн орчны шуугиан гэдэг нь орчны шуугианыг ү
 йлдэл дээр нэмэхийг хэлдэг. Үйлдлийн
  []
 
 
-Overfull \hbox (9.65315pt too wide) in paragraph at lines 344--345
+Overfull \hbox (9.65315pt too wide) in paragraph at lines 342--343
 \TU/TimesNewRoman(0)/m/n/12 орчны шуугиан дотор бие биетэйгээ хамааралтай шууги
 ан, бие биенээсээ хамааралгүй шуугиан
  []
@@ -1293,7 +1307,7 @@ Overfull \hbox (9.65315pt too wide) in paragraph at lines 344--345
 File: ./images/OU_process_graph.jpg Graphic file (type bmp)
 <./images/OU_process_graph.jpg>
 
-Overfull \hbox (4.96681pt too wide) in paragraph at lines 356--357
+Overfull \hbox (4.96681pt too wide) in paragraph at lines 354--355
 []\TU/TimesNewRoman(0)/m/n/12 Туршилт хийхдээ хоёр өөр утга гаргах Ornstein–Uhl
 enbeck-ын процессын хэрэгжүүлэлтийг
  []
@@ -1301,75 +1315,69 @@ enbeck-ын процессын хэрэгжүүлэлтийг
 File: ./images/OU_OUBaseline_Graph.jpg Graphic file (type bmp)
 <./images/OU_OUBaseline_Graph.jpg>
 [11]
-Overfull \hbox (7.53206pt too wide) in paragraph at lines 366--367
+Overfull \hbox (7.53206pt too wide) in paragraph at lines 364--365
 \TU/TimesNewRoman(0)/m/n/12 Uncorrelated noise буюу бие биенээсээ хамааралгүй ш
 уугианыг үүсгэхдээ [-0.2, 0.2]-ын хооронд
- []
-
-
-Overfull \hbox (2.99611pt too wide) in paragraph at lines 366--367
-\TU/TimesNewRoman(0)/m/n/12 гэхээр 3 төрлийн шуугианаа хооронд нь харьцуулах уч
-ираас адилхан параметртэй хэрэгжүүлж
  []
 
 File: ./images/Uncorrelated_noise.jpg Graphic file (type bmp)
 <./images/Uncorrelated_noise.jpg>
 [12]
-Overfull \hbox (20.55536pt too wide) in paragraph at lines 376--377
+Overfull \hbox (20.55536pt too wide) in paragraph at lines 374--375
 \TU/TimesNewRoman(0)/m/n/12 үйлдэлд шуугиан нэмэх бус неорал сүлжээн дээр парам
 етр байдлаар шуугианыг нэмдэг. Шуугиан
  []
 
 
-Overfull \hbox (18.19499pt too wide) in paragraph at lines 376--377
+Overfull \hbox (18.19499pt too wide) in paragraph at lines 374--375
 \TU/TimesNewRoman(0)/m/n/12 нь дасан зохицдог шуугиан (Adaptive noise) байна. У
 ламжлалт RL нь үйлдлийн орчны шуугианыг
  []
 
 
-Overfull \hbox (11.16603pt too wide) in paragraph at lines 376--377
-\TU/TimesNewRoman(0)/m/n/12 ашиглан агент нэг алхамаас нөгөө алхамд хийх үйлдэл
- бүртэй холбоотой магадлалыг өөрчилдөг.
+Overfull \hbox (5.99806pt too wide) in paragraph at lines 374--375
+\TU/TimesNewRoman(0)/m/n/12 ашиглан агент нэг алхмаас нөгөө алхамд хийх үйлдэл 
+бүртэй холбоотой магадлалыг өөрчилдөг.
  []
 
 
-Overfull \hbox (17.43556pt too wide) in paragraph at lines 380--381
+Overfull \hbox (17.43556pt too wide) in paragraph at lines 378--379
 []\TU/TimesNewRoman(0)/m/n/12 Episode болгоны эхэнд actor сүлжээг хуулж аваад Г
 ауссын шуугианыг нэмж шинэ шуугиантай
  []
 
 [13]
-Overfull \hbox (8.63869pt too wide) in paragraph at lines 396--397
+Overfull \hbox (8.63869pt too wide) in paragraph at lines 394--395
 []\TU/TimesNewRoman(0)/m/n/12 Шинэ үүссэн actor сүлжээний үйлдлүүд болон энгийн
  actor сүлжээний үйлдлүүд хоорондын
  []
 
 
-Overfull \hbox (8.48439pt too wide) in paragraph at lines 419--420
+Overfull \hbox (8.48439pt too wide) in paragraph at lines 417--418
 []\TU/TimesNewRoman(0)/m/n/12 Gym бол reinforcement learning буюу бататгасан су
 ргалтын алгоритмуудыг хөгжүүлэх болон
  []
 
 [14]
-Overfull \hbox (12.20996pt too wide) in paragraph at lines 430--431
+Overfull \hbox (12.20996pt too wide) in paragraph at lines 428--429
 []\TU/TimesNewRoman(0)/m/n/12 Гэсэн хэдий ч RL судалгааны ажлыг RL-ын open-sour
 ce орчин хангалттай олон янз байдаггүй
  []
 
 
-Overfull \hbox (0.50319pt too wide) in paragraph at lines 436--437
+Overfull \hbox (0.50319pt too wide) in paragraph at lines 434--435
 []\TU/TimesNewRoman(0)/m/n/12 Төлөв нь их биений өнцгийн хурд, өнцгийн хурд, хэ
 втээ хурд, босоо хурд, хөлний байрлал,
  []
 
 
-Overfull \hbox (5.74382pt too wide) in paragraph at lines 440--441
+Overfull \hbox (5.74382pt too wide) in paragraph at lines 438--439
 \TU/TimesNewRoman(0)/m/n/12 хэлэнд ихээр ашиглагддаг ч мөн С++ програмчлалын хэ
 лд ашиглагддаг. Энэ нь GPU ашигладаг.
  []
 
 [15]
-Overfull \hbox (4.74872pt too wide) in paragraph at lines 447--448
+Overfull \hbox (4.74872pt too wide) in paragraph at lines 445--446
 \TU/TimesNewRoman(0)/m/n/12 Учир нь маш нарийн төвөгтэй неороны сүлжээг хялбара
 ар бий болгодог. Мөн кодоо шалгахдаа
  []
@@ -1378,10 +1386,10 @@ Overfull \hbox (4.74872pt too wide) in paragraph at lines 447--448
 \uppercase {Бүлэг}2.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 449.
+(hyperref)                removing `\uppercase' on input line 447.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 449--450
+Underfull \hbox (badness 10000) in paragraph at lines 447--448
 
  []
 
@@ -1394,128 +1402,184 @@ File: ./images/bipedalwalker.jpg Graphic file (type bmp)
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 471.
+nput line 469.
 
-Overfull \hbox (37.03517pt too wide) in paragraph at lines 481--482
+Overfull \hbox (37.03517pt too wide) in paragraph at lines 479--480
 []\TU/TimesNewRoman(0)/m/n/12 Доорх DDPG-ийн хипер параметрүүд нь BiPedalWalker
 -V3 орчныг шийдвэрлэхэд тохируулагдсан
  []
 
 [18]
-Overfull \hbox (2.9684pt too wide) in paragraph at lines 501--502
+Overfull \hbox (2.9684pt too wide) in paragraph at lines 499--500
 \TU/TimesNewRoman(0)/m/n/12 Үүсгэхдээ төлөвийн хэмжээс, үйлдлийн хэмжээс, хийж 
 болох үйлдлийн тоо зэргийг ашиглана. 
  []
 
 [19] [20]
+Overfull \hbox (10.75392pt too wide) in paragraph at lines 551--552
+[]\TU/TimesNewRoman(0)/m/n/12 Параметр шуугианд зориулан үүсгэсэн шинэ actor сү
+лжээний неорал сүлжээн дээр параметр
+ []
+
+[21] [22]
 Missing character: There is no щ in font [lmmono10-regular]:!
 Missing character: There is no щ in font [lmmono10-regular]:!
- [21] [22]
+ [23]
 \uppercase {Бүлэг}3.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 577.
+(hyperref)                removing `\uppercase' on input line 607.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 577--578
+Underfull \hbox (badness 10000) in paragraph at lines 607--608
 
  []
 
 
-Overfull \hbox (2.43913pt too wide) in paragraph at lines 587--588
+Overfull \hbox (3.95085pt too wide) in paragraph at lines 617--618
 \TU/TimesNewRoman(0)/m/n/12 Ornstein-Uhlenbeck Process-г ашигласан. Доорх бүх г
-рапикийн хувьд Actor LEARNING RATE:
+рафикийн хувьд Actor LEARNING RATE:
  []
 
 File: ./images/after_800_ep.jpg Graphic file (type bmp)
 <./images/after_800_ep.jpg>
 File: ./images/after_1000_ep2.jpg Graphic file (type bmp)
 <./images/after_1000_ep2.jpg>
-[23
+[24
 
 ]
-Overfull \hbox (3.83856pt too wide) in paragraph at lines 605--606
+Overfull \hbox (3.83856pt too wide) in paragraph at lines 635--636
 \TU/TimesNewRoman(0)/m/n/12 шуугиантай уялдаа хамааралгүй буюу uncorrelated шуу
 гиан гэсэн үг юм. Доорх бүх грапикийн
  []
 
 
-Overfull \hbox (0.93358pt too wide) in paragraph at lines 605--606
+Overfull \hbox (0.93358pt too wide) in paragraph at lines 635--636
 \TU/TimesNewRoman(0)/m/n/12 хувьд Actor LEARNING RATE: 0.001 Critic LEARNING RA
 TE: 0.001 бусад хипер параметрүүд
  []
 
 File: ./images/after_800_ep_02.jpg Graphic file (type bmp)
 <./images/after_800_ep_02.jpg>
-[24]
+[25]
 File: ./images/after_800_ep_02_am.jpg Graphic file (type bmp)
 <./images/after_800_ep_02_am.jpg>
- [25]
+ [26]
 File: ./images/after_800_ep_04.jpg Graphic file (type bmp)
 <./images/after_800_ep_04.jpg>
- [26] [27]
+File: ./images/PSN_a-lr-0-0001_c-lr-0-001_1200ep.jpg Graphic file (type bmp)
+<./images/PSN_a-lr-0-0001_c-lr-0-001_1200ep.jpg>
+ [27]
+Overfull \hbox (39.34572pt too wide) in paragraph at lines 671--672
+\TU/TimesNewRoman(0)/m/n/12 хоорондоо харьцуулагдах боломжтой болгохын тулд пар
+аметр шуугианыг дангаар нь ашиглахгүйгээр
+ []
+
+File: ./images/comperation-3.jpg Graphic file (type bmp)
+<./images/comperation-3.jpg>
+[28]
+Overfull \hbox (10.24481pt too wide) in paragraph at lines 681--682
+\TU/TimesNewRoman(0)/m/n/12 маш бага дундаж шагнал нь бага байна. Үүнээс дүгнэх
+эд гүйцэтгэлийн хувьд параметр шуугиан
+ []
+
+[29]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 639.
+(hyperref)                removing `\uppercase' on input line 686.
 
-[28]
-Underfull \hbox (badness 10000) in paragraph at lines 651--652
+
+Underfull \hbox (badness 10000) in paragraph at lines 686--687
+
+ []
+
+
+Overfull \hbox (12.32715pt too wide) in paragraph at lines 688--689
+[]\TU/TimesNewRoman(0)/m/n/12 Энэхүү судалгааны ажлаар 3 төрлийн шуугианыг DDPG
+ алгоритмыг ашиглан BipedalWalker-
+ []
+
+
+Overfull \hbox (11.4206pt too wide) in paragraph at lines 688--689
+\TU/TimesNewRoman(0)/m/n/12 V3 орчин дээр амжилттай туршиж гүйцэтгэлээ. Бие бие
+нээсээ хамааралгүй болон бие биетэйгээ
+ []
+
+
+Overfull \hbox (13.82619pt too wide) in paragraph at lines 690--691
+\TU/TimesNewRoman(0)/m/n/12 моделио уншиж аваад үргэлжлүүлэн сургадаг үйлдлийг 
+параметр шуугианыг хэрэгжүүлснийхээ
+ []
+
+
+Overfull \hbox (12.9551pt too wide) in paragraph at lines 690--691
+\TU/TimesNewRoman(0)/m/n/12 хэрэгжүүлээгүйгээс болж бие биенээсээ хамааралгүй ш
+уугиан болон бие биетэйгээ хамааралтай
+ []
+
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 701--702
 []\TU/TimesNewRoman(0)/m/n/12 Deep Deterministic Policy Gradients Explained, To
 wardsDataScience, []$[][][][][] [] [] []
  []
 
 
-Overfull \hbox (45.00438pt too wide) in paragraph at lines 651--652
+Overfull \hbox (45.00438pt too wide) in paragraph at lines 701--702
 [][][][][][][][][][][][][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][]$[] 
  []
 
 
-Overfull \hbox (66.5016pt too wide) in paragraph at lines 659--660
+Overfull \hbox (66.5016pt too wide) in paragraph at lines 709--710
 []\TU/TimesNewRoman(0)/m/n/12 Parameter noise, Openai, []$[][][][][] [] [] [] [
 ][][][][][] [] [][][] [] [][][][] [] [][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][]$[] 
  []
 
-[29
+
+Underfull \hbox (badness 1147) in paragraph at lines 716--717
+[]\TU/TimesNewRoman(0)/m/n/12 Benchmarking Deep Reinforcement Learning for Cont
+inuous Control, Arxiv, []$[][][][][] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 718--719
+[]\TU/TimesNewRoman(0)/m/n/12 Policy Gradient Algorithms. 2018., LilianWeng, []
+$[][][][][] [] [] [] [][][][][][][][][][] [] [][][][][][] [] [][] []
+ []
+
+[31
 
 ]
 AppendixA.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 672.
-
-[30
-
-]
-AppendixB.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 676.
+(hyperref)                removing `\uppercase' on input line 730.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 676--677
+Underfull \hbox (badness 10000) in paragraph at lines 730--731
 
  []
 
-[31
+[32
 
-] (main.aux (main-pre.aux) (abstract.aux))
+] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] (main.aux
+(main-pre.aux) (abstract.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 07EB98669618A5B814EEFECB57F73DAA;3967.
+(rerunfilecheck)             Checksum: B01063DE8FD3DFA51363A4815F607CBE;3915.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 20937 strings out of 412249
- 363200 string characters out of 2851560
- 1032485 words of memory out of 3000000
- 40067 multiletter control sequences out of 15000+200000
+ 21117 strings out of 412249
+ 366063 string characters out of 2851560
+ 1204534 words of memory out of 3000000
+ 40245 multiletter control sequences out of 15000+200000
  541278 words of font info for 93 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 96i,13n,111p,626b,1861s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 96i,13n,111p,945b,1863s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (38 pages).
+Output written on main.pdf (50 pages).

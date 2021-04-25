@@ -10,21 +10,22 @@
 \contentsline {subsection}{\numberline {1.1.4}Суралцах үйл явц}{5}{subsection.1.1.4}%
 \contentsline {section}{\numberline {1.2}Гүн неороны сүлжээ}{5}{section.1.2}%
 \contentsline {section}{\numberline {1.3}DDPG алгоритм}{6}{section.1.3}%
-\contentsline {subsubsection}{Replay buffer}{8}{section*.4}%
-\contentsline {subsubsection}{Actor болон Critic сүлжээг шинэчлэх}{8}{section*.5}%
-\contentsline {subsubsection}{Target сүлжээг шинэчлэх}{9}{section*.6}%
-\contentsline {subsubsection}{Шуугиан нэмэх}{9}{section*.7}%
+\contentsline {subsubsection}{DDPG алгоритмын pseudo code}{7}{section*.4}%
+\contentsline {subsubsection}{Replay buffer}{8}{section*.5}%
+\contentsline {subsubsection}{Actor болон Critic сүлжээг шинэчлэх}{8}{section*.6}%
+\contentsline {subsubsection}{Target сүлжээг шинэчлэх}{9}{section*.7}%
+\contentsline {subsubsection}{Шуугиан нэмэх}{9}{section*.8}%
 \contentsline {section}{\numberline {1.4}Хиперпараметрүүдийн тохируулга}{9}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Орчны шуугиан}{9}{section.1.5}%
 \contentsline {subsection}{\numberline {1.5.1}Үйлдлийн орчны шуугиан}{10}{subsection.1.5.1}%
-\contentsline {subsubsection}{Бие биетэйгээ хамааралтай шуугиан}{11}{section*.9}%
-\contentsline {subsubsection}{Бие биенээсээ хамааралгүй шуугиан}{12}{section*.12}%
+\contentsline {subsubsection}{Бие биетэйгээ хамааралтай шуугиан}{11}{section*.10}%
+\contentsline {subsubsection}{Бие биенээсээ хамааралгүй шуугиан}{12}{section*.13}%
 \contentsline {subsection}{\numberline {1.5.2}Параметр шуугиан}{13}{subsection.1.5.2}%
 \contentsline {subsection}{\numberline {1.5.3}Параметр шуугианыг хэрэгжүүлэх}{13}{subsection.1.5.3}%
-\contentsline {subsubsection}{Off-policy аргад зориулсан параметер шуугиан}{14}{section*.14}%
+\contentsline {subsubsection}{Off-policy аргад зориулсан параметер шуугиан}{14}{section*.15}%
 \contentsline {section}{\numberline {1.6}Ашигласан технологи}{14}{section.1.6}%
 \contentsline {subsection}{\numberline {1.6.1}Gym}{14}{subsection.1.6.1}%
-\contentsline {subsubsection}{Яагаад үүнийг ашигладаг вэ?}{15}{section*.15}%
+\contentsline {subsubsection}{Яагаад үүнийг ашигладаг вэ?}{15}{section*.16}%
 \contentsline {subsection}{\numberline {1.6.2}BiPedalWalker-v2}{15}{subsection.1.6.2}%
 \contentsline {subsection}{\numberline {1.6.3}Pytorch}{15}{subsection.1.6.3}%
 \contentsline {chapter}{\numberline {2.}\uppercase {Хэрэгжүүлэлт}}{17}{chapter.2}%
@@ -32,15 +33,14 @@
 \contentsline {section}{\numberline {2.2}Алгоритмын турших орчин}{17}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Хипер параметрүүд}{18}{subsection.2.2.1}%
 \contentsline {section}{\numberline {2.3}Чухал кодын хэсгүүд}{19}{section.2.3}%
-\contentsline {chapter}{\numberline {3.}\uppercase {Үр дүнгийн боловсруулалт}}{23}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Туршилтын үр дүн}{23}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Үйлдлийн орчны шуугиан}{23}{subsection.3.1.1}%
-\contentsline {subsubsection}{Correlated шуугиан}{23}{section*.17}%
-\contentsline {subsubsection}{Uncorrelated шуугиан}{24}{section*.20}%
+\contentsline {chapter}{\numberline {3.}\uppercase {Үр дүнгийн боловсруулалт}}{24}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Туршилтын үр дүн}{24}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Үйлдлийн орчны шуугиан}{24}{subsection.3.1.1}%
+\contentsline {subsubsection}{Correlated шуугиан}{24}{section*.18}%
+\contentsline {subsubsection}{Uncorrelated шуугиан}{25}{section*.21}%
 \contentsline {subsection}{\numberline {3.1.2}Parameter Space Noise}{27}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}Үр дүнгийн харьцуулалт}{27}{section.3.2}%
-\contentsline {part}{\uppercase {Дүгнэлт}}{28}{section.3.2}%
-\contentsline {part}{НОМ ЗҮЙ}{28}{section.3.2}%
-\contentsline {part}{ХАВСРАЛТ}{29}{chapter*.24}%
-\contentsline {chapter}{\numberline {A.}\uppercase {А}}{30}{appendix.A}%
-\contentsline {chapter}{\numberline {B.}\uppercase {Кодын хэрэгжүүлэлт}}{31}{appendix.B}%
+\contentsline {section}{\numberline {3.2}Үр дүнгийн харьцуулалт}{28}{section.3.2}%
+\contentsline {part}{\uppercase {Дүгнэлт}}{30}{figure.caption.26}%
+\contentsline {part}{НОМ ЗҮЙ}{30}{figure.caption.26}%
+\contentsline {part}{ХАВСРАЛТ}{31}{chapter*.27}%
+\contentsline {chapter}{\numberline {A.}\uppercase {Кодын хэрэгжүүлэлт}}{32}{appendix.A}%
