@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.7) (preloaded format=xelatex 2020.10.6)  22 APR 2021 19:29
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.7) (preloaded format=xelatex 2020.10.6)  4 MAY 2021 12:49
 entering extended mode
 **./abstract.tex
 (abstract.tex
@@ -25,7 +25,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.3 С
-     үүлийн жилүүдэд бататгасан сургалтын (RL) алгоритмуудыг компьютерийн ши...
+     үүлийн жилүүдэд бататгасан сургалтын (RL) алгоритмуудыг компьютерын шин...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -90,8 +90,7 @@ Missing character: There is no ю in font nullfont!
 Missing character: There is no т in font nullfont!
 Missing character: There is no е in font nullfont!
 Missing character: There is no р in font nullfont!
-Missing character: There is no и in font nullfont!
-Missing character: There is no й in font nullfont!
+Missing character: There is no ы in font nullfont!
 Missing character: There is no н in font nullfont!
 Missing character: There is no ш in font nullfont!
 Missing character: There is no и in font nullfont!
@@ -131,8 +130,8 @@ Missing character: There is no н in font nullfont!
 Missing character: There is no с in font nullfont!
 Missing character: There is no у in font nullfont!
 Missing character: There is no д in font nullfont!
-Missing character: There is no л in font nullfont!
 Missing character: There is no а in font nullfont!
+Missing character: There is no л in font nullfont!
 Missing character: There is no ж in font nullfont!
 Missing character: There is no б in font nullfont!
 Missing character: There is no а in font nullfont!
@@ -1233,7 +1232,7 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 7--8
 
 ! Undefined control sequence.
 l.9 \section
-            {Зорилго}
+            *{Зорилго}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1247,11 +1246,12 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.9 \section{З
-              орилго}
+l.9 \section*
+             {Зорилго}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+Missing character: There is no * in font nullfont!
 Missing character: There is no З in font nullfont!
 Missing character: There is no о in font nullfont!
 Missing character: There is no р in font nullfont!
@@ -1409,7 +1409,7 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 11--12
 
 ! Undefined control sequence.
 l.13 \section
-             {Асуудал}
+             *{Асуудал}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1423,11 +1423,12 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 \section{А
-               суудал}
+l.13 \section*
+              {Асуудал}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+Missing character: There is no * in font nullfont!
 Missing character: There is no А in font nullfont!
 Missing character: There is no с in font nullfont!
 Missing character: There is no у in font nullfont!
@@ -1548,7 +1549,6 @@ Missing character: There is no ө in font nullfont!
 Missing character: There is no ө in font nullfont!
 Missing character: There is no р in font nullfont!
 Missing character: There is no ч in font nullfont!
-Missing character: There is no и in font nullfont!
 Missing character: There is no л in font nullfont!
 Missing character: There is no ө in font nullfont!
 Missing character: There is no г in font nullfont!
@@ -1602,7 +1602,7 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 15--16
 
 ! Undefined control sequence.
 l.17 \section
-             {Хамрах хүрээ}
+             *{Хамрах хүрээ}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1616,11 +1616,12 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.17 \section{Х
-               амрах хүрээ}
+l.17 \section*
+              {Хамрах хүрээ}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+Missing character: There is no * in font nullfont!
 Missing character: There is no Х in font nullfont!
 Missing character: There is no а in font nullfont!
 Missing character: There is no м in font nullfont!
@@ -1824,24 +1825,6 @@ Missing character: There is no й in font nullfont!
 Missing character: There is no н in font nullfont!
 Missing character: There is no э in font nullfont!
 Missing character: There is no . in font nullfont!
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 19--20
-[]
- []
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 М
-      өн бүх шуугианы хувьд mu=0, sigma=0.2 байна. Mu нь дундаж утга, sigma ...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 Missing character: There is no М in font nullfont!
 Missing character: There is no ө in font nullfont!
 Missing character: There is no н in font nullfont!
@@ -1969,7 +1952,7 @@ Missing character: There is no ү in font nullfont!
 Missing character: There is no г in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 21--22
+Overfull \hbox (20.0pt too wide) in paragraph at lines 19--20
 []
  []
 
@@ -1980,7 +1963,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.23 \end{abstract}
+l.21 \end{abstract}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,

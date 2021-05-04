@@ -1,0 +1,750 @@
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.7) (preloaded format=xelatex 2020.10.6)  2 MAY 2021 18:10
+entering extended mode
+**./main-pre.tex
+(main-pre.tex
+LaTeX2e <2020-10-01>
+L3 programming layer <2020-09-24> xparse <2020-03-03>
+! Undefined control sequence.
+l.3 \makefrontpage
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.4 \maketitle
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.6 \doublespace
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Environment huge undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \begin{huge}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \textbf{Зохиогчийн баталгаа}
+                                 
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no З in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no х in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no и in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no г in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ч in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no и in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no й in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no н in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no б in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no а in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no т in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no а in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no л in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no г in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no а in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no а in font [lmroman10-bold]:mapping=tex-text;!
+
+! LaTeX Error: \begin{document} ended by \end{huge}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 \end{huge}
+                \\ \ \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+<recently read> \doublespace 
+                             
+l.12 \doublespace
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no М in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no й in font nullfont!
+Missing character: There is no б in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no е in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no д in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no в in font nullfont!
+Missing character: There is no т in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no й in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no у in font nullfont!
+Missing character: There is no д in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no г in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no ы in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no ж in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no ы in font nullfont!
+Missing character: There is no г in font nullfont!
+Missing character: There is no г in font nullfont!
+Missing character: There is no ү in font nullfont!
+Missing character: There is no й in font nullfont!
+Missing character: There is no ц in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no т in font nullfont!
+Missing character: There is no г in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no б in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no х in font nullfont!
+Missing character: There is no ы in font nullfont!
+Missing character: There is no г in font nullfont!
+Missing character: There is no з in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no р in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no ж in font nullfont!
+Missing character: There is no д in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no р in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no х in font nullfont!
+Missing character: There is no з in font nullfont!
+Missing character: There is no ү in font nullfont!
+Missing character: There is no й in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no й in font nullfont!
+Missing character: There is no г in font nullfont!
+Missing character: There is no б in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no т in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no ж in font nullfont!
+Missing character: There is no б in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no й in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no : in font nullfont!
+
+Overfull \hbox (48.0pt too wide) in paragraph at lines 10--14
+[]\TU/lmr/bx/n/10 Зохиогчийн
+ []
+
+
+Overfull \hbox (22.4pt too wide) in paragraph at lines 10--14
+\TU/lmr/bx/n/10 баталгаа
+ []
+
+Missing character: There is no А in font nullfont!
+Missing character: There is no ж in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no ь in font nullfont!
+Missing character: There is no б in font nullfont!
+Missing character: There is no ү in font nullfont!
+Missing character: There is no х in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no д in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no в in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no х in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no х in font nullfont!
+Missing character: There is no д in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no М in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no г in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no У in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no ы in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no И in font nullfont!
+Missing character: There is no х in font nullfont!
+Missing character: There is no С in font nullfont!
+Missing character: There is no у in font nullfont!
+Missing character: There is no р in font nullfont!
+Missing character: There is no г in font nullfont!
+Missing character: There is no у in font nullfont!
+Missing character: There is no у in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no й in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no з in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no р in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no г in font nullfont!
+Missing character: There is no г in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no р in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no х in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no р in font nullfont!
+Missing character: There is no д in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no в in font nullfont!
+Missing character: There is no ш in font nullfont!
+Missing character: There is no ү in font nullfont!
+Missing character: There is no ү in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no б in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no Э in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no ж in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no ы in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no ь in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no г in font nullfont!
+Missing character: There is no х in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no г in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no й in font nullfont!
+Missing character: There is no г in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no в in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no б in font nullfont!
+Missing character: There is no ү in font nullfont!
+Missing character: There is no х in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no р in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no ь in font nullfont!
+Missing character: There is no я in font nullfont!
+Missing character: There is no м in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no р in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no г in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no х in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no д in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no д in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no у in font nullfont!
+Missing character: There is no р in font nullfont!
+Missing character: There is no г in font nullfont!
+Missing character: There is no у in font nullfont!
+Missing character: There is no у in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no й in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no з in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no р in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no г in font nullfont!
+Missing character: There is no г in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no р in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no х in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no р in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no р in font nullfont!
+Missing character: There is no у in font nullfont!
+Missing character: There is no у in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no ж in font nullfont!
+Missing character: There is no б in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no й in font nullfont!
+Missing character: There is no г in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no г in font nullfont!
+Missing character: There is no ү in font nullfont!
+Missing character: There is no й in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no Б in font nullfont!
+Missing character: There is no у in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no д in font nullfont!
+Missing character: There is no ы in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no х in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no й in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no ж in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no х in font nullfont!
+Missing character: There is no у in font nullfont!
+Missing character: There is no у in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no б in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no р in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no г in font nullfont!
+Missing character: There is no ү in font nullfont!
+Missing character: There is no й in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no ш in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no г in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no б in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no ш in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no з in font nullfont!
+Missing character: There is no ү in font nullfont!
+Missing character: There is no ү in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no т in font nullfont!
+Missing character: There is no х in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no й in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no А in font nullfont!
+Missing character: There is no ж in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no ы in font nullfont!
+Missing character: There is no г in font nullfont!
+Missing character: There is no б in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no ө in font nullfont!
+Missing character: There is no ө in font nullfont!
+Missing character: There is no р in font nullfont!
+Missing character: There is no ө in font nullfont!
+Missing character: There is no ө in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no х in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no м in font nullfont!
+Missing character: There is no т in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no р in font nullfont!
+Missing character: There is no ч in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no х in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no й in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no б in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no м in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no й in font nullfont!
+Missing character: There is no х in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no й in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no ж in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no ү in font nullfont!
+Missing character: There is no з in font nullfont!
+Missing character: There is no ү in font nullfont!
+Missing character: There is no ү in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no д in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no м in font nullfont!
+Missing character: There is no ж in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no г in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no й in font nullfont!
+Missing character: There is no г in font nullfont!
+Missing character: There is no д in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no п in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no м in font nullfont!
+Missing character: There is no ы in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no ж in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no д in font nullfont!
+Missing character: There is no т in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no д in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no р in font nullfont!
+Missing character: There is no х in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no й in font nullfont!
+Missing character: There is no т in font nullfont!
+Missing character: There is no у in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no г in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no А in font nullfont!
+Missing character: There is no ж in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no д in font nullfont!
+Missing character: There is no т in font nullfont!
+Missing character: There is no у in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no б in font nullfont!
+Missing character: There is no ү in font nullfont!
+Missing character: There is no х in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no х in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no у in font nullfont!
+Missing character: There is no р in font nullfont!
+Missing character: There is no в in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no ж in font nullfont!
+Missing character: There is no и in font nullfont!
+Missing character: There is no д in font nullfont!
+Missing character: There is no т in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no л in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no р in font nullfont!
+Missing character: There is no х in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no ж in font nullfont!
+Missing character: There is no б in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no й in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no Г in font nullfont!
+Missing character: There is no а in font nullfont!
+Missing character: There is no р in font nullfont!
+Missing character: There is no ы in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no ү in font nullfont!
+Missing character: There is no с in font nullfont!
+Missing character: There is no э in font nullfont!
+Missing character: There is no г in font nullfont!
+Missing character: There is no : in font nullfont!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 23.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 23.
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 23--24
+[]
+ []
+
+
+Overfull \hbox (142.26378pt too wide) in paragraph at lines 23--24
+[]$ 
+ []
+
+Missing character: There is no О in font nullfont!
+Missing character: There is no г in font nullfont!
+Missing character: There is no н in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no о in font nullfont!
+Missing character: There is no : in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 25--26
+[]
+ []
+
+
+Overfull \hbox (85.35826pt too wide) in paragraph at lines 25--26
+[]$ 
+ []
+
+! Undefined control sequence.
+l.29 \tableofcontents
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.32 \listoffigures
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.35 \listoftables
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.38 \lstlistoflistings
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 \newpage
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1]
+
+! LaTeX Error: Command \cftlabel undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 \renewcommand{\cftlabel}
+                             {Зураг}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Environment huge undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 \begin{huge}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no Т in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no в in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ч in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no и in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no л in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no с in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no о in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no н in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ү in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no г in font [lmroman10-bold]:mapping=tex-text;!
+
+! LaTeX Error: \begin{document} ended by \end{huge}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 \end{huge}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no D in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no G in font nullfont!
+
+Overfull \hbox (45.2pt too wide) in paragraph at lines 49--52
+[]\TU/lmr/bx/n/10 Товчилсон
+ []
+
+
+Overfull \hbox (5.6pt too wide) in paragraph at lines 49--52
+\TU/lmr/bx/n/10 үг
+ []
+
+! Undefined control sequence.
+l.53 \doublespace
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
+! Emergency stop.
+<*> ./main-pre.tex
+                  
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 31 strings out of 412249
+ 564 string characters out of 2851560
+ 277446 words of memory out of 3000000
+ 19584 multiletter control sequences out of 15000+200000
+ 535104 words of font info for 31 fonts, out of 3000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 20i,4n,16p,132b,97s stack positions out of 5000i,500n,10000p,200000b,50000s
+Output written on main-pre.pdf (1 page).
